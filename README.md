@@ -1,10 +1,7 @@
 # front-end-demos
-<<<<<<< HEAD
-本仓库为Web前端demo合集
-=======
 
 #### 介绍
-本仓库为Web前端demo合集
+Web前端demo合集
 
 #### 软件架构
 软件架构说明
