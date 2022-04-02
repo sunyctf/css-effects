@@ -1,0 +1,66 @@
+* {
+	/* 初始化 取消页面的内外边距 */
+	padding: 0;
+	margin: 0;
+}
+body {
+	/* 弹性布局 让页面元素垂直+水平居中 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #efeeee;
+}
+.container {
+	display: flex;
+	/* 让一行中的元素平均分配宽度 */
+	justify-content: space-around;
+	align-items: center;
+	/* 元素在一行放不下时自动换行 */
+	flex-wrap: wrap;
+	width: 700px;
+	height: 600px;
+}
+.container .box {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/* 让元素垂直排列 这里就是让包含图片的div和文字垂直排列 */
+	flex-direction: column;
+	width: 100px;
+	height: 140px;
+	margin: 20px;
+	/* 鼠标放上去变成小手 */
+	cursor: pointer;
+}
+.container .box .img {
+	/* 这里让图片在盒子里垂直+水平居中 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100px;
+	height: 100px;
+	/* 圆角属性 */
+	border-radius: 20px;
+	/* 盒子阴影 */
+	box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2),
+		-18px -18px 30px rgba(255, 255, 255, 1);
+	/* 过渡时间 ease-out是指先快速 后慢速 */
+	transition: all 0.2s ease-out;
+}
+.container .box .img img {
+	width: 60px;
+	transition: all 0.2s ease-out;
+}
+.container .box p {
+	color: slategrey;
+}
+.container .box .img:hover {
+	/* inset 是内部阴影 默认是外部阴影outset */
+	box-shadow: 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 rgba(255, 255, 255, 0.8),
+		inset 18px 18px 30px rgba(0, 0, 0, 0.1),
+		inset -18px -18px 30px rgba(255, 255, 255, 1);
+}
+.container .box .img:hover img {
+	width: 58px;
+}
