@@ -1,7 +1,9 @@
 # front-end-demos
 
 #### 介绍
-Web前端demo合集
+Web前端特效demo合集
+
+**Demo**：https://sunyctf.github.io/front-end-demos/login/
 
 #### 软件架构
 软件架构说明
