@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css做的太极，鼠标触发旋转</title>
+    <style>
+      body {
+      	background-color:#999;
+      }
+      .bg {
+      	height:800px;
+      }
+      .d1 {
+      	margin:0 auto;
+      	margin-top:150px;
+      	width:400px;
+      	height:400px;
+      	transition-duration:0.5s;
+      }
+      .taiji {
+      	width:300px;
+      	height:300px;
+      	background-color:black;
+      	position:absolute;
+      	top:200px;
+      	left:540px;
+      	margin:0 auto;
+      	border-radius:200px 200px;
+      	transition-duration:5s;
+      }
+      .tr {
+      	width:150px;
+      	height:300px;
+      	background-color:white;
+      	border-radius:200px 0 0 200px;
+      	transition-duration:5s;
+      }
+      .trr {
+      	width:150px;
+      	height:150px;
+      	border-radius:200px 200px 200px 200px;
+      	position:relative;
+      	left:80px;
+      	background-color:white;
+      }
+      .trr1 {
+      	background-color:black;
+      }
+      .trr2 {
+      	top:50px;
+      	left:50px;
+      	width:40px;
+      	height:40px;
+      	background-color:black;
+      }
+      .trr3 {
+      	background-color:white;
+      }
+      .d1:hover {
+      	background-color:#999;
+      	/* transition:50px 50px; */
+      	/* transform:scaleX(2); */
+      }
+      .taiji:hover {
+      	transform:scale(2.5) rotate(180deg);
+      	opacity:0.05;
+      }
+      .tr:hover {
+      	color:white;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="d1">
+      <div class="taiji">
+        <div class="tr">
+          <div class="bg">
+            <div class="trr">
+              <div class="trr trr2"></div>
+            </div>
+            <div class="trr trr1">
+              <div class="trr trr2 trr3"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
