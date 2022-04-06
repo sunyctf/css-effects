@@ -1,0 +1,705 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>几组漂亮的CSS3按钮边框动画特效</title>
+
+<style>
+body{background:#000;}
+button{cursor:pointer;}
+/* Reset */
+.animate, .btn, .btn-border-o:before, .btn-border-o:after, .btn-border:before, .btn-border:after, .btn-border-rev-o:before, .btn-border-rev-o:after, .btn-border-rev:before, .btn-border-rev:after, .btn-fill-vert-o:before, .btn-fill-vert-o:after, .btn-fill-vert:before, .btn-fill-vert:after, .btn-fill-horz-o:before, .btn-fill-horz-o:after, .btn-fill-horz:before, .btn-fill-horz:after {
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+/* Main Styles */
+.main-container {
+  width: 100%;
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+h1 {
+  line-height: 1;
+  padding: 25px 0;
+  border-bottom: 1px solid #2c3e50;
+  font-size: 35px;
+  color: #2c3e50;
+  text-align: center;
+}
+
+section {
+  padding: 60px 0 61px;
+  text-align: center;
+  position: relative;
+}
+section h2 {
+  margin-bottom: 15px;
+  font-weight: normal;
+  font-size: 17px;
+  color: #D2D2D2;
+  text-align: center;
+}
+section:not(:last-child):after {
+  content: '';
+  width: 70%;
+  height: 1px;
+  border-bottom: 1px dashed #2c3e50;
+  opacity: .5;
+  position: absolute;
+  bottom: -1px;
+  left: 15%;
+}
+
+.btn {
+  display: inline-block;
+  line-height: 35px;
+  margin: 8px;
+  padding: 0 15px;
+  font-size: 15px;
+  position: relative;
+  opacity: .999;
+  border-radius: 3px;
+}
+
+.btn-border-o {
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  color: #B8B8B8;
+}
+.btn-border-o:before, .btn-border-o:after {
+  content: '';
+  border-style: solid;
+  position: absolute;
+  z-index: 5;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+.btn-border-o:before {
+  width: 0;
+  height: 100%;
+  border-width: 1px 0 1px 0;
+  top: -1px;
+  left: 0;
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+.btn-border-o:after {
+  width: 100%;
+  height: 0;
+  border-width: 0 1px 0 1px;
+  top: 0;
+  left: -1px;
+}
+.btn-border-o:hover:before {
+  width: 100%;
+}
+.btn-border-o:hover:after {
+  height: 100%;
+}
+.btn-border-o.btn-green:before, .btn-border-o.btn-green:after {
+  border-color: #2ecc71;
+}
+.btn-border-o.btn-green:hover {
+  color: #2ecc71;
+}
+.btn-border-o.btn-blue:before, .btn-border-o.btn-blue:after {
+  border-color: #3498db;
+}
+.btn-border-o.btn-blue:hover {
+  color: #3498db;
+}
+.btn-border-o.btn-purple:before, .btn-border-o.btn-purple:after {
+  border-color: #9b59b6;
+}
+.btn-border-o.btn-purple:hover {
+  color: #9b59b6;
+}
+.btn-border-o.btn-navy:before, .btn-border-o.btn-navy:after {
+  border-color: #34495e;
+}
+.btn-border-o.btn-navy:hover {
+  color: #34495e;
+}
+.btn-border-o.btn-orange:before, .btn-border-o.btn-orange:after {
+  border-color: #e67e22;
+}
+.btn-border-o.btn-orange:hover {
+  color: #e67e22;
+}
+.btn-border-o.btn-red:before, .btn-border-o.btn-red:after {
+  border-color: #e74c3c;
+}
+.btn-border-o.btn-red:hover {
+  color: #e74c3c;
+}
+
+.btn-border {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  color: #a6a6a6;
+}
+.btn-border:before, .btn-border:after {
+  content: '';
+  border-style: solid;
+  position: absolute;
+  z-index: 5;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+.btn-border:before {
+  width: 0;
+  height: 100%;
+  border-width: 1px 0 1px 0;
+  top: -1px;
+  left: 0;
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+.btn-border:after {
+  width: 100%;
+  height: 0;
+  border-width: 0 1px 0 1px;
+  top: 0;
+  left: -1px;
+}
+.btn-border:hover {
+  background-color: transparent;
+}
+.btn-border:hover:before {
+  width: 100%;
+}
+.btn-border:hover:after {
+  height: 100%;
+}
+.btn-border.btn-green:before, .btn-border.btn-green:after {
+  border-color: #2ecc71;
+}
+.btn-border.btn-green:hover {
+  color: #2ecc71;
+}
+.btn-border.btn-blue:before, .btn-border.btn-blue:after {
+  border-color: #3498db;
+}
+.btn-border.btn-blue:hover {
+  color: #3498db;
+}
+.btn-border.btn-purple:before, .btn-border.btn-purple:after {
+  border-color: #9b59b6;
+}
+.btn-border.btn-purple:hover {
+  color: #9b59b6;
+}
+.btn-border.btn-navy:before, .btn-border.btn-navy:after {
+  border-color: #34495e;
+}
+.btn-border.btn-navy:hover {
+  color: #34495e;
+}
+.btn-border.btn-orange:before, .btn-border.btn-orange:after {
+  border-color: #e67e22;
+}
+.btn-border.btn-orange:hover {
+  color: #e67e22;
+}
+.btn-border.btn-red:before, .btn-border.btn-red:after {
+  border-color: #e74c3c;
+}
+.btn-border.btn-red:hover {
+  color: #e74c3c;
+}
+
+.btn-border-rev-o {
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  color: #B8B8B8;
+}
+.btn-border-rev-o:before, .btn-border-rev-o:after {
+  content: '';
+  border-style: solid;
+  position: absolute;
+  z-index: 5;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+.btn-border-rev-o:before {
+  width: 0;
+  height: 100%;
+  border-width: 1px 0 1px 0;
+  top: -1px;
+  right: 0;
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+.btn-border-rev-o:after {
+  width: 100%;
+  height: 0;
+  border-width: 0 1px 0 1px;
+  bottom: 0;
+  left: -1px;
+}
+.btn-border-rev-o:hover:before {
+  width: 100%;
+}
+.btn-border-rev-o:hover:after {
+  height: 100%;
+}
+.btn-border-rev-o.btn-green:before, .btn-border-rev-o.btn-green:after {
+  border-color: #2ecc71;
+}
+.btn-border-rev-o.btn-green:hover {
+  color: #2ecc71;
+}
+.btn-border-rev-o.btn-blue:before, .btn-border-rev-o.btn-blue:after {
+  border-color: #3498db;
+}
+.btn-border-rev-o.btn-blue:hover {
+  color: #3498db;
+}
+.btn-border-rev-o.btn-purple:before, .btn-border-rev-o.btn-purple:after {
+  border-color: #9b59b6;
+}
+.btn-border-rev-o.btn-purple:hover {
+  color: #9b59b6;
+}
+.btn-border-rev-o.btn-navy:before, .btn-border-rev-o.btn-navy:after {
+  border-color: #34495e;
+}
+.btn-border-rev-o.btn-navy:hover {
+  color: #34495e;
+}
+.btn-border-rev-o.btn-orange:before, .btn-border-rev-o.btn-orange:after {
+  border-color: #e67e22;
+}
+.btn-border-rev-o.btn-orange:hover {
+  color: #e67e22;
+}
+.btn-border-rev-o.btn-red:before, .btn-border-rev-o.btn-red:after {
+  border-color: #e74c3c;
+}
+.btn-border-rev-o.btn-red:hover {
+  color: #e74c3c;
+}
+
+.btn-border-rev {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  color: #a6a6a6;
+}
+.btn-border-rev:before, .btn-border-rev:after {
+  content: '';
+  border-style: solid;
+  position: absolute;
+  z-index: 5;
+  border-radius: 3px;
+  box-sizing: content-box;
+}
+.btn-border-rev:before {
+  width: 0;
+  height: 100%;
+  border-width: 1px 0 1px 0;
+  top: -1px;
+  right: 0;
+}
+.btn-border-rev:after {
+  width: 100%;
+  height: 0;
+  border-width: 0 1px 0 1px;
+  bottom: 0;
+  left: -1px;
+  -webkit-transition-delay: 0.05s;
+          transition-delay: 0.05s;
+}
+.btn-border-rev:hover {
+  background-color: transparent;
+}
+.btn-border-rev:hover:before {
+  width: 100%;
+}
+.btn-border-rev:hover:after {
+  height: 100%;
+}
+.btn-border-rev.btn-green:before, .btn-border-rev.btn-green:after {
+  border-color: #2ecc71;
+}
+.btn-border-rev.btn-green:hover {
+  color: #2ecc71;
+}
+.btn-border-rev.btn-blue:before, .btn-border-rev.btn-blue:after {
+  border-color: #3498db;
+}
+.btn-border-rev.btn-blue:hover {
+  color: #3498db;
+}
+.btn-border-rev.btn-purple:before, .btn-border-rev.btn-purple:after {
+  border-color: #9b59b6;
+}
+.btn-border-rev.btn-purple:hover {
+  color: #9b59b6;
+}
+.btn-border-rev.btn-navy:before, .btn-border-rev.btn-navy:after {
+  border-color: #34495e;
+}
+.btn-border-rev.btn-navy:hover {
+  color: #34495e;
+}
+.btn-border-rev.btn-orange:before, .btn-border-rev.btn-orange:after {
+  border-color: #e67e22;
+}
+.btn-border-rev.btn-orange:hover {
+  color: #e67e22;
+}
+.btn-border-rev.btn-red:before, .btn-border-rev.btn-red:after {
+  border-color: #e74c3c;
+}
+.btn-border-rev.btn-red:hover {
+  color: #e74c3c;
+}
+
+.btn-fill-vert-o {
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  color: #B8B8B8;
+  overflow: hidden;
+}
+.btn-fill-vert-o:before, .btn-fill-vert-o:after {
+  content: '';
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.btn-fill-vert-o:before {
+  top: 50%;
+}
+.btn-fill-vert-o:after {
+  bottom: 50%;
+}
+.btn-fill-vert-o:hover {
+  color: #fff;
+}
+.btn-fill-vert-o:hover:before, .btn-fill-vert-o:hover:after {
+  height: 50%;
+  opacity: 1;
+}
+.btn-fill-vert-o.btn-green:before, .btn-fill-vert-o.btn-green:after {
+  background-color: #2ecc71;
+}
+.btn-fill-vert-o.btn-green:hover {
+  border-color: #2ecc71;
+}
+.btn-fill-vert-o.btn-blue:before, .btn-fill-vert-o.btn-blue:after {
+  background-color: #3498db;
+}
+.btn-fill-vert-o.btn-blue:hover {
+  border-color: #3498db;
+}
+.btn-fill-vert-o.btn-purple:before, .btn-fill-vert-o.btn-purple:after {
+  background-color: #9b59b6;
+}
+.btn-fill-vert-o.btn-purple:hover {
+  border-color: #9b59b6;
+}
+.btn-fill-vert-o.btn-navy:before, .btn-fill-vert-o.btn-navy:after {
+  background-color: #34495e;
+}
+.btn-fill-vert-o.btn-navy:hover {
+  border-color: #34495e;
+}
+.btn-fill-vert-o.btn-orange:before, .btn-fill-vert-o.btn-orange:after {
+  background-color: #e67e22;
+}
+.btn-fill-vert-o.btn-orange:hover {
+  border-color: #e67e22;
+}
+.btn-fill-vert-o.btn-red:before, .btn-fill-vert-o.btn-red:after {
+  background-color: #e74c3c;
+}
+.btn-fill-vert-o.btn-red:hover {
+  border-color: #e74c3c;
+}
+
+.btn-fill-vert {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  color: #a6a6a6;
+  overflow: hidden;
+}
+.btn-fill-vert:before, .btn-fill-vert:after {
+  content: '';
+  width: 100%;
+  height: 0;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  z-index: -1;
+}
+.btn-fill-vert:before {
+  top: 50%;
+}
+.btn-fill-vert:after {
+  bottom: 50%;
+}
+.btn-fill-vert:hover {
+  color: #fff;
+}
+.btn-fill-vert:hover:before, .btn-fill-vert:hover:after {
+  height: 50%;
+  opacity: 1;
+}
+.btn-fill-vert.btn-green:before, .btn-fill-vert.btn-green:after {
+  background-color: #2ecc71;
+}
+.btn-fill-vert.btn-green:hover {
+  border-color: #2ecc71;
+}
+.btn-fill-vert.btn-blue:before, .btn-fill-vert.btn-blue:after {
+  background-color: #3498db;
+}
+.btn-fill-vert.btn-blue:hover {
+  border-color: #3498db;
+}
+.btn-fill-vert.btn-purple:before, .btn-fill-vert.btn-purple:after {
+  background-color: #9b59b6;
+}
+.btn-fill-vert.btn-purple:hover {
+  border-color: #9b59b6;
+}
+.btn-fill-vert.btn-navy:before, .btn-fill-vert.btn-navy:after {
+  background-color: #34495e;
+}
+.btn-fill-vert.btn-navy:hover {
+  border-color: #34495e;
+}
+.btn-fill-vert.btn-orange:before, .btn-fill-vert.btn-orange:after {
+  background-color: #e67e22;
+}
+.btn-fill-vert.btn-orange:hover {
+  border-color: #e67e22;
+}
+.btn-fill-vert.btn-red:before, .btn-fill-vert.btn-red:after {
+  background-color: #e74c3c;
+}
+.btn-fill-vert.btn-red:hover {
+  border-color: #e74c3c;
+}
+
+.btn-fill-horz-o {
+  background-color: transparent;
+  border: 1px solid #d0d0d0;
+  color: #B8B8B8;
+  overflow: hidden;
+}
+.btn-fill-horz-o:before, .btn-fill-horz-o:after {
+  content: '';
+  width: 0;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.btn-fill-horz-o:before {
+  left: 50%;
+}
+.btn-fill-horz-o:after {
+  right: 50%;
+}
+.btn-fill-horz-o:hover {
+  color: #fff;
+}
+.btn-fill-horz-o:hover:before, .btn-fill-horz-o:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+.btn-fill-horz-o.btn-green:before, .btn-fill-horz-o.btn-green:after {
+  background-color: #2ecc71;
+}
+.btn-fill-horz-o.btn-green:hover {
+  border-color: #2ecc71;
+}
+.btn-fill-horz-o.btn-blue:before, .btn-fill-horz-o.btn-blue:after {
+  background-color: #3498db;
+}
+.btn-fill-horz-o.btn-blue:hover {
+  border-color: #3498db;
+}
+.btn-fill-horz-o.btn-purple:before, .btn-fill-horz-o.btn-purple:after {
+  background-color: #9b59b6;
+}
+.btn-fill-horz-o.btn-purple:hover {
+  border-color: #9b59b6;
+}
+.btn-fill-horz-o.btn-navy:before, .btn-fill-horz-o.btn-navy:after {
+  background-color: #34495e;
+}
+.btn-fill-horz-o.btn-navy:hover {
+  border-color: #34495e;
+}
+.btn-fill-horz-o.btn-orange:before, .btn-fill-horz-o.btn-orange:after {
+  background-color: #e67e22;
+}
+.btn-fill-horz-o.btn-orange:hover {
+  border-color: #e67e22;
+}
+.btn-fill-horz-o.btn-red:before, .btn-fill-horz-o.btn-red:after {
+  background-color: #e74c3c;
+}
+.btn-fill-horz-o.btn-red:hover {
+  border-color: #e74c3c;
+}
+
+.btn-fill-horz {
+  background-color: #e5e5e5;
+  border: 1px solid #e5e5e5;
+  color: #a6a6a6;
+  overflow: hidden;
+}
+.btn-fill-horz:before, .btn-fill-horz:after {
+  content: '';
+  width: 0;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  z-index: -1;
+}
+.btn-fill-horz:before {
+  left: 50%;
+}
+.btn-fill-horz:after {
+  right: 50%;
+}
+.btn-fill-horz:hover {
+  color: #fff;
+}
+.btn-fill-horz:hover:before, .btn-fill-horz:hover:after {
+  width: 50%;
+  opacity: 1;
+}
+.btn-fill-horz.btn-green:before, .btn-fill-horz.btn-green:after {
+  background-color: #2ecc71;
+}
+.btn-fill-horz.btn-green:hover {
+  border-color: #2ecc71;
+}
+.btn-fill-horz.btn-blue:before, .btn-fill-horz.btn-blue:after {
+  background-color: #3498db;
+}
+.btn-fill-horz.btn-blue:hover {
+  border-color: #3498db;
+}
+.btn-fill-horz.btn-purple:before, .btn-fill-horz.btn-purple:after {
+  background-color: #9b59b6;
+}
+.btn-fill-horz.btn-purple:hover {
+  border-color: #9b59b6;
+}
+.btn-fill-horz.btn-navy:before, .btn-fill-horz.btn-navy:after {
+  background-color: #34495e;
+}
+.btn-fill-horz.btn-navy:hover {
+  border-color: #34495e;
+}
+.btn-fill-horz.btn-orange:before, .btn-fill-horz.btn-orange:after {
+  background-color: #e67e22;
+}
+.btn-fill-horz.btn-orange:hover {
+  border-color: #e67e22;
+}
+.btn-fill-horz.btn-red:before, .btn-fill-horz.btn-red:after {
+  background-color: #e74c3c;
+}
+.btn-fill-horz.btn-red:hover {
+  border-color: #e74c3c;
+}
+</style>
+
+</head>
+<body>
+
+<div class="main-container">
+  <section>
+    <h2>Border - Open</h2>
+    <button class="btn btn-green btn-border-o">Emerald</button>
+    <button class="btn btn-blue btn-border-o">Peter River</button>
+    <button class="btn btn-purple btn-border-o">Amethyst</button>
+    <button class="btn btn-navy btn-border-o">Wet Asphalt</button>
+    <button class="btn btn-orange btn-border-o">Carrot</button>
+    <button class="btn btn-red btn-border-o">Alizarin</button>
+  </section>
+  <section>
+    <h2>Border</h2>
+    <button class="btn btn-green btn-border">Emerald</button>
+    <button class="btn btn-blue btn-border">Peter River</button>
+    <button class="btn btn-purple btn-border">Amethyst</button>
+    <button class="btn btn-navy btn-border">Wet Asphalt</button>
+    <button class="btn btn-orange btn-border">Carrot</button>
+    <button class="btn btn-red btn-border">Alizarin</button>
+  </section>
+  <section>
+    <h2>Border Reversed - Open</h2>
+    <button class="btn btn-green btn-border-rev-o">Emerald</button>
+    <button class="btn btn-blue btn-border-rev-o">Peter River</button>
+    <button class="btn btn-purple btn-border-rev-o">Amethyst</button>
+    <button class="btn btn-navy btn-border-rev-o">Wet Asphalt</button>
+    <button class="btn btn-orange btn-border-rev-o">Carrot</button>
+    <button class="btn btn-red btn-border-rev-o">Alizarin</button>
+  </section>
+  <section>
+    <h2>Border Reversed</h2>
+    <button class="btn btn-green btn-border-rev">Emerald</button>
+    <button class="btn btn-blue btn-border-rev">Peter River</button>
+    <button class="btn btn-purple btn-border-rev">Amethyst</button>
+    <button class="btn btn-navy btn-border-rev">Wet Asphalt</button>
+    <button class="btn btn-orange btn-border-rev">Carrot</button>
+    <button class="btn btn-red btn-border-rev">Alizarin</button>
+  </section>
+  <section>
+    <h2>Fill Vertical - Open</h2>
+    <button class="btn btn-green btn-fill-vert-o">Emerald</button>
+    <button class="btn btn-blue btn-fill-vert-o">Peter River</button>
+    <button class="btn btn-purple btn-fill-vert-o">Amethyst</button>
+    <button class="btn btn-navy btn-fill-vert-o">Wet Asphalt</button>
+    <button class="btn btn-orange btn-fill-vert-o">Carrot</button>
+    <button class="btn btn-red btn-fill-vert-o">Alizarin</button>
+  </section>
+  <section>
+    <h2>Fill Vertical</h2>
+    <button class="btn btn-green btn-fill-vert">Emerald</button>
+    <button class="btn btn-blue btn-fill-vert">Peter River</button>
+    <button class="btn btn-purple btn-fill-vert">Amethyst</button>
+    <button class="btn btn-navy btn-fill-vert">Wet Asphalt</button>
+    <button class="btn btn-orange btn-fill-vert">Carrot</button>
+    <button class="btn btn-red btn-fill-vert">Alizarin</button>
+  </section>
+  <section>
+    <h2>Fill Horizontal - Open</h2>
+    <button class="btn btn-green btn-fill-horz-o">Emerald</button>
+    <button class="btn btn-blue btn-fill-horz-o">Peter River</button>
+    <button class="btn btn-purple btn-fill-horz-o">Amethyst</button>
+    <button class="btn btn-navy btn-fill-horz-o">Wet Asphalt</button>
+    <button class="btn btn-orange btn-fill-horz-o">Carrot</button>
+    <button class="btn btn-red btn-fill-horz-o">Alizarin</button>
+  </section>
+  <section>
+    <h2>Fill Horizontal</h2>
+    <button class="btn btn-green btn-fill-horz">Emerald</button>
+    <button class="btn btn-blue btn-fill-horz">Peter River</button>
+    <button class="btn btn-purple btn-fill-horz">Amethyst</button>
+    <button class="btn btn-navy btn-fill-horz">Wet Asphalt</button>
+    <button class="btn btn-orange btn-fill-horz">Carrot</button>
+    <button class="btn btn-red btn-fill-horz">Alizarin</button>
+  </section>
+</div>
+
+<div style="text-align:center;margin:50px 0; font:normal 14px/24px 'MicroSoft YaHei';color:#ffffff">
+<p>适用浏览器：360、FireFox、Chrome、Opera、傲游、搜狗、世界之窗. 不支持Safari、IE8及以下浏览器。</p>
+<p>来源：<a href="https://github.com/sunyctf/front-end-demos" target="_blank">儒雅的烤地瓜</a></p>
+</div>
+</body>
+</html>
