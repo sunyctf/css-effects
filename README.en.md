@@ -29,7 +29,7 @@ Software architecture description
 #### Gitee Feature
 
 1.  You can use Readme\_XXX.md to support different languages, such as Readme\_en.md, Readme\_zh.md
-2.  Gitee blog [blog.github.com](https://github.blog)
+2.  GitHub blog [blog.github.com](https://github.blog)
 3.  Explore open source project [https://github.com/explore](https://github.com/explore)
 4.  The manual of Gitee [https://docs.github.com/cn](https://docs.github.com/cn)
 6.  GitHub中文社区 https://www.githubs.cn/
