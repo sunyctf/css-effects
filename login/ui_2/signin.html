@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>登陆页面</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
+	<script src="js/signin.js"async></script>
+	<script src="css/font_1554827_uixfzwgne2o/iconfont.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/sign.css">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+	
+
+	
+	<style>
+	.icon {
+	  width: 1.5em;
+	  height: 1.5em;
+	  vertical-align: -0.15em;
+	  fill: currentColor;
+	  overflow: hidden;
+	}
+	</style>
+</head>
+<body>
+	
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form"  action="select.php" method="post">
+					<span class="login100-form-title p-b-26">
+						登陆
+					</span>
+					
+					<span class="login100-form-title p-b-48">
+						<svg class="icon" aria-hidden="true">
+							<use xlink:href="#icon-zhuce"></use>
+						</svg>
+					</span>
+				
+					<div class="wrap-input100 validate-input" data-validate = "手机号或邮箱格式错误">
+						<input class="input100" type="text" id="tel" name="tel" required>
+						<span class="focus-input100" data-placeholder="手机号/邮箱"></span>
+					</div>
+					
+	
+
+					<div class="wrap-input100 validate-input" data-validate="密码格式错误">
+						<input class="input100" type="password" id="pass" name="pass" required>
+						<span class="focus-input100" data-placeholder="密码"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<div class="wrap-login100-form-btn">
+							<div class="login100-form-bgbtn"></div>
+							<button class="login100-form-btn" name='submit' value='submit'  href="index.html">
+								登陆
+							</button>
+						</div>
+					</div>
+					
+					<!--bootstrap用-->
+					<div class="text-center p-t-115">
+						<span class="txt1">
+							没有账号|
+						</span>
+						<a class="txt2" href="signup.html">
+							注册
+						</a>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
+
