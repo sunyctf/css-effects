@@ -1,9 +1,9 @@
-# simulation
+# NeumorphismIcon
 
 #### 介绍
 使用HTML+CSS 完成了一个超好看的新拟态鼠标经过的效果，快来看看吧！
 
-**Demo**：https://sunyctf.github.io/front-end-demos/NeumorphismIcon/
+- **[Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/新拟态鼠标经过特效/index.html)**
 
 #### 软件架构
 软件架构说明
