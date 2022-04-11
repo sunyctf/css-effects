@@ -51,11 +51,9 @@ HTMl、CSS3、JavaScript、DOM、Jquery、VUE
 
 # 安装教程
 
-运行每个小项目的html文件即可
+1.点击以上对应分类下的Demo预览链接
 
-# 使用说明
-
-暂无
+2.通过[GitHub pages](https://pages.github.com/ "去了解GitHub pages")在浏览器地址栏访问
 
 # 参与贡献
 
