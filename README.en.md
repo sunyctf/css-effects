@@ -1,7 +1,7 @@
 # front-end-demos
 
 #### Description
-本仓库为Web前端demo合集
+The demo collection of front-end special effects mainly collects the front-end special effects in daily work and study for your reference, learn from each other, communicate with each other and make common progress!
 
 #### Software Architecture
 Software architecture description
