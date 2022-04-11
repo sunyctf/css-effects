@@ -1,7 +1,7 @@
 # front-end-demos
 
 #### Description
-The demo collection of front-end special effects mainly collects the front-end special effects in daily work and study for your reference, learn from each other, communicate with each other and make common progress!
+The demo collection of front-end special effects mainly collects front-end special effects in daily work and study for your reference! Learn from each other, communicate with each other, discuss together and make common progress! Front end aesthetics, work with you to make a front-end interface with a sense of design!
 
 #### Software Architecture
 Software architecture description
