@@ -1,36 +1,68 @@
-# front-end-demos
+# 在线预览
 
-#### 介绍
+本栏目正在建设中...
+
+# 仓库介绍
+
 前端特效demo合集，主要收集平时工作和学习中的前端特效，在这里总能找到你需要的特效，如果你喜欢的话就Star 一下吧！Front-end-aesthetics，和大家一起制作有设计感的前端界面！相互学习，互相交流，一起探讨，共同进步！
 
-#### 软件架构
-软件架构说明
+# 内容目录
 
+- [css特效](#css-effects)
 
-#### 安装教程
+- [边框特效](#border-effects)
+- [登陆界面](#login)
+- [导航栏合集](#navbar)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## css-effects
 
-#### 使用说明
+- [css大风车动画](https://sunyctf.github.io/front-end-demos/css-effects/css动画大风车.html)
+- [css太极动画0](https://sunyctf.github.io/front-end-demos/css-effects/css太极动画0.html)
+- [css太极动画1](https://sunyctf.github.io/front-end-demos/css-effects/css太极动画1.html)
+- [css太极鼠标触发旋转](https://sunyctf.github.io/front-end-demos/css-effects/css太极鼠标触发旋转.html)
+- [css渐变色动画边框](https://sunyctf.github.io/front-end-demos/css-effects/css渐变色动画边框.html)
+- [css电视动画模型](https://sunyctf.github.io/front-end-demos/css-effects/css电视动画模型.html)
+- [满屏漂浮的爱心](https://sunyctf.github.io/front-end-demos/css-effects/满屏漂浮的爱心.html)
+- [纯css小黄人](https://sunyctf.github.io/front-end-demos/css-effects/纯css小黄人.html)
+- [黑客帝国](https://sunyctf.github.io/front-end-demos/css-effects/黑客帝国.html)
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+## border-effects
 
-#### 参与贡献
+- [css实现发光边框](https://sunyctf.github.io/front-end-demos/border-effects/css实现发光边框.html)
+- [css实现边框跑马灯效果](https://sunyctf.github.io/front-end-demos/border-effects/css实现边框跑马灯效果.html)
+- [几组漂亮的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/几组漂亮的css按钮边框特效.html)
+- [图片边框动画](https://sunyctf.github.io/front-end-demos/border-effects/图片边框动画/Demo.html)
+- [6种炫酷的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/6种炫酷的css按钮边框特效/index.html)
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## login
 
+- [登录ui0](https://sunyctf.github.io/front-end-demos/login/signin0/index.html)
+- [登录注册ui0](https://sunyctf.github.io/front-end-demos/login/signin-up0/index.html)
+- [登录注册ui1](https://sunyctf.github.io/front-end-demos/login/signin-up1/signin.html)
 
-#### 特技
+## navbar
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  GitHub 官方博客 [blog.github.com](https://github.blog)
-3.  你可以 [https://github.com/explore](https://github.com/explore) 这个地址来了解 GitHub 上的优秀开源项目
-4.  GitHub官方提供的使用手册 [https://docs.github.com/cn](https://docs.github.com/cn)
-5.  GitHub中文社区 https://www.githubs.cn/
+- [HTML+CSS 侧边展开导航栏](https://sunyctf.github.io/front-end-demos/navbar/sidenav/index.html)
+- [HTML+CSS 伸缩式导航栏](https://sunyctf.github.io/front-end-demos/navbar/telescopicnav/index.html)
+
+# 使用说明
+
+HTMl、CSS3、JavaScript、DOM、Jquery、VUE
+
+# 安装教程
+
+运行每个小项目的html文件即可
+
+# 使用说明
+
+暂无
+
+# 参与贡献
+
+1.Fork 本仓库
+
+2.新建 Feat_xxx 分支
+
+3.提交代码
+
+4.新建 Pull Request
