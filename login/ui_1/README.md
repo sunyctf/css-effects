@@ -1,7 +1,7 @@
 # login
 
 #### 介绍
-HTML+CSS 完成登录页面UI    
+HTML+CSS 完成登陆注册UI   
 
 - **[Demo预览](https://sunyctf.github.io/front-end-demos/login/ui_0/index.html)**
 
