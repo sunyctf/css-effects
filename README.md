@@ -55,6 +55,10 @@ HTMl、CSS3、JavaScript、DOM、Jquery、VUE
 
 2.通过[GitHub pages](https://pages.github.com/ "去了解GitHub pages")在浏览器地址栏访问
 
+- 我的仓库主页：https://sunyctf.github.io/front-end-demos/
+
+- GitHub pages站点访问通用格式：https//github用户名.github.io/github仓库名/项目文件夹名(如果有)/html文件名
+
 # 参与贡献
 
 1.Fork 本仓库
