@@ -1,6 +1,6 @@
 # 在线预览
 
-![](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/images/4.gif)
+![程序员春天](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/images/程序员的春天.png "正在施工中,不过春天已来到")
 
 # 仓库介绍
 
