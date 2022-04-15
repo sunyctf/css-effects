@@ -41,6 +41,7 @@
 - [登录注册ui1](https://sunyctf.github.io/front-end-demos/login/signin-up1/signin.html)
 - [html+css唯美登录页面](https://sunyctf.github.io/front-end-demos/login/html+css唯美登录页面.html)
 - [html+css透明动态漂浮登录页面](https://sunyctf.github.io/front-end-demos/login/html+css透明动态漂浮登录页面.html)
+- [html+css+js可爱的熊猫遮眼登录界面](https://sunyctf.github.io/front-end-demos/login/html+css+js可爱的熊猫遮眼登录界面/index.html)
 
 ## navbar
 
