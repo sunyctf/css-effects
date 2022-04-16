@@ -25,6 +25,7 @@
 - [满屏漂浮的爱心](https://sunyctf.github.io/front-end-demos/css-effects/满屏漂浮的爱心.html)
 - [纯css小黄人](https://sunyctf.github.io/front-end-demos/css-effects/纯css小黄人.html)
 - [黑客帝国](https://sunyctf.github.io/front-end-demos/css-effects/黑客帝国.html)
+- [纯css画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/纯css画鸣人.html)
 
 ## border-effects
 
