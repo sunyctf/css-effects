@@ -39,7 +39,7 @@
 
 - [HTML5+CSS3登陆按钮跑马灯效果](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3登陆按钮跑马灯效果/index.html)
 - [HTML5+CSS3+JS登陆注册页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JS登陆注册页面/index.html)
-- [HTML5+CSS3+js登陆注册页面0](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+js登陆注册页面0/signin.html)
+- [HTML5+CSS3+JS登陆注册页面0](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+js登陆注册页面0/signin.html)
 - [HTML5+CSS3唯美登录页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3唯美登录页面.html)
 - [HTML5+CSS3透明动态漂浮登录页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3透明动态漂浮登录页面/index.html)
 - [HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面0](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面0/index.html)
