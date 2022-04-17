@@ -44,6 +44,7 @@
 - [HTML5+CSS3透明动态漂浮登录页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3透明动态漂浮登录页面/index.html)
 - [HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面0](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面0/index.html)
 - [HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面1](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面1/index.html)
+- [HTML5+CSS3+JS左右切换登录注册页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JS左右切换登录注册页面/index.html)
 
 ## navbar
 
