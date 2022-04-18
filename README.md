@@ -26,6 +26,8 @@
 - [纯css小黄人](https://sunyctf.github.io/front-end-demos/css-effects/纯css小黄人.html)
 - [黑客帝国](https://sunyctf.github.io/front-end-demos/css-effects/黑客帝国.html)
 - [纯css画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/纯css画鸣人.html)
+- [HTML5+CSS3新拟态鼠标经过特效](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3新拟态鼠标经过特效/index.html)
+- [HTML5+CSS3圆盘时钟动画特效](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3圆盘时钟动画特效/index.html)
 
 ## border-effects
 
