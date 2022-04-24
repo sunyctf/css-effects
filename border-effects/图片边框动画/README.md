@@ -1,7 +1,7 @@
-# 图片边框动画
+# 鼠标悬停显示图片边框的跑马灯动效
 
 #### 介绍
-- 图片边框动画
+- 鼠标悬停显示图片边框跑马灯动效
 
 - [Demo预览](https://sunyctf.github.io/front-end-demos/border-effects/图片边框动画/Demo.html)
 
