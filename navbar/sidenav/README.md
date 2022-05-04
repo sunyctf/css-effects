@@ -1,7 +1,9 @@
-# front-end-demos
+# HTML5+CSS3侧边展开导航栏
 
 #### 介绍
-HTML+CSS 侧边展开导航栏
+HTML5+CSS3侧边展开导航栏sidenav
+
+- 💦[**Demo预览**](https://sunyctf.github.io/front-end-demos/navbar/sidenav/index.html)
 
 #### 软件架构
 软件架构说明
