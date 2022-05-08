@@ -34,10 +34,10 @@
 
 ## border-effects
 
-- [css实现发光边框](https://sunyctf.github.io/front-end-demos/border-effects/css实现发光边框.html)
-- [css实现边框跑马灯效果](https://sunyctf.github.io/front-end-demos/border-effects/css实现边框跑马灯效果.html)
-- [几组漂亮的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/几组漂亮的css按钮边框特效.html)
-- [图片边框动画](https://sunyctf.github.io/front-end-demos/border-effects/图片边框动画/Demo.html)
+- [HTMl5+CSS3实现发光边框](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现发光边框.html)
+- [HTMl5+CSS3实现边框跑马灯效果](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现边框跑马灯效果.html)
+- [HTMl5+CSS3多组漂亮的按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3多组漂亮的按钮边框特效.html)
+- [HTMl5+CSS3图片边框动画](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3图片边框动画/Demo.html)
 - [6种炫酷的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/6种炫酷的css按钮边框特效/index.html)
 
 ## login
