@@ -1,6 +1,6 @@
 # 在线预览
 
-[![前端](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/images/6.gif "前端")](https://sunyctf.github.io/front-end-demos/)
+[![前端](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/images/qcode.gif "前端")](https://sunyctf.github.io/front-end-demos/)
 
 # 仓库介绍
 
