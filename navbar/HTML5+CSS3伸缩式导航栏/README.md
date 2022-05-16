@@ -2,7 +2,7 @@
 
 #### 介绍
 - HTML5+CSS3伸缩式导航栏
-- 💦[**Demo预览**](https://sunyctf.github.io/front-end-demos/navbar/sidenav/index.html)
+- 💦[**Demo预览**](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3伸缩式导航栏/index.html)
 
 #### 软件架构
 软件架构说明
