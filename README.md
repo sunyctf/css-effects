@@ -55,7 +55,7 @@
 ## navbar
 
 - [HTML+CSS侧边展开导航栏](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3侧边展开导航栏/index.html)
-- [HTML+CSS伸缩式导航栏](https://sunyctf.github.io/front-end-demos/navbar/telescopicnav/index.html)
+- [HTML+CSS伸缩式导航栏](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3伸缩式导航栏/index.html)
 
 # 使用说明
 
