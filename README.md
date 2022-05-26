@@ -33,6 +33,7 @@
 - [HTML5+CSS3鼠标悬停图片展示效果](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3鼠标悬停图片展示效果/index.html)
 - [HTML5+CSS3文字弹跳动画](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3文字弹跳动画/index.html)
 - [HTML5+CSS3创意设计鼠标悬停发光菜单](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3创意设计鼠标悬停发光菜单/index.html)
+- [HTML5+CSS3实现地球自转](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3实现地球自转/index.html)
 
 ## border-effects
 
