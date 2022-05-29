@@ -19,7 +19,7 @@
 - [HTML5+CSS3动画大风车](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3动画大风车.html)
 - [HTML5+CSS3太极动画0](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3太极动画0.html)
 - [HTML5+CSS3太极动画1](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3太极动画1.html)
-- [css太极鼠标触发旋转](https://sunyctf.github.io/front-end-demos/css-effects/css太极鼠标触发旋转.html)
+- [HTML5+CSS3太极鼠标触发旋转](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3太极鼠标触发旋转.html)
 - [HTML5+CSS3渐变色动画边框](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3渐变色动画边框.html)
 - [HTML5+CSS3电视动画模型](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3电视动画模型.html)
 - [满屏漂浮的爱心](https://sunyctf.github.io/front-end-demos/css-effects/满屏漂浮的爱心.html)
