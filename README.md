@@ -23,7 +23,6 @@
 - [HTML5+CSS3渐变色动画边框](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3渐变色动画边框.html)
 - [HTML5+CSS3电视动画模型](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3电视动画模型.html)
 - [满屏漂浮的爱心](https://sunyctf.github.io/front-end-demos/css-effects/满屏漂浮的爱心.html)
-- [纯css小黄人](https://sunyctf.github.io/front-end-demos/css-effects/纯css小黄人.html)
 - [黑客帝国](https://sunyctf.github.io/front-end-demos/css-effects/黑客帝国.html)
 - [HTML5+CSS3小黄人](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3小黄人.html)
 - [canvas粒子跟随炫酷特效](https://sunyctf.github.io/front-end-demos/css-effects/canvas粒子跟随炫酷特效.html)
@@ -34,6 +33,7 @@
 - [HTML5+CSS3文字弹跳动画](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3文字弹跳动画/index.html)
 - [HTML5+CSS3创意设计鼠标悬停发光菜单](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3创意设计鼠标悬停发光菜单/index.html)
 - [HTML5+CSS3实现地球自转](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3实现地球自转/index.html)
+- [HTML5+CSS3画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3画鸣人.html)
 
 ### border-effects
 
