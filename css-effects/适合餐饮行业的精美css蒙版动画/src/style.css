@@ -1,0 +1,82 @@
+body {
+  font-weight: 700;
+  font-family: Lato;
+  letter-spacing: 0.08em;
+  background-color: #F0F4C3;
+}
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.image-wrapper {
+  width: 100%;
+  max-width: 640px;
+  margin-right: auto;
+  margin-left: auto;
+  mask-image: url("https://res.cloudinary.com/daqkfiwnc/image/upload/v1647573770/assets/mask_cloud_gzcgdf.png");
+  mask-size: 100% 100%;
+  mask-mode: alpha;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url("https://res.cloudinary.com/daqkfiwnc/image/upload/v1647573770/assets/mask_cloud_gzcgdf.png");
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-mode: alpha;
+  -webkit-mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  animation-name: mask-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+  mask-image: url("https://res.cloudinary.com/daqkfiwnc/image/upload/v1647577382/assets/mask_cloud_horizontal_n35us0.png");
+  mask-size: 100% 100%;
+  mask-mode: alpha;
+  mask-repeat: no-repeat;
+  mask-position: center;
+  -webkit-mask-image: url("https://res.cloudinary.com/daqkfiwnc/image/upload/v1647577382/assets/mask_cloud_horizontal_n35us0.png");
+  -webkit-mask-size: 100% 100%;
+  -webkit-mask-mode: alpha;
+  animation-name: mask-animation-in;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes mask-animation {
+  0% {
+    opacity: 0;
+    mask-size: 50% 50%;
+    -webkit-mask-size: 50% 50%;
+  }
+  20% {
+    opacity: 1;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+  }
+  60% {
+    opacity: 1;
+    mask-size: 100% 100%;
+    -webkit-mask-size: 100% 100%;
+  }
+  80% {
+    opacity: 0;
+    mask-size: 50% 50%;
+    -webkit-mask-size: 50% 50%;
+  }
+  100% {
+    opacity: 0;
+    mask-size: 50% 50%;
+    -webkit-mask-size: 50% 50%;
+  }
+}
+@keyframes mask-animation-in {
+  0% {
+    -webkit-mask-position: 0px center;
+  }
+  100% {
+    -webkit-mask-position: 640px center;
+  }
+}
