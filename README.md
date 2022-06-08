@@ -34,6 +34,7 @@
 - [HTML5+CSS3创意设计鼠标悬停发光菜单](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3创意设计鼠标悬停发光菜单/index.html)
 - [HTML5+CSS3实现地球自转](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3实现地球自转/index.html)
 - [HTML5+CSS3画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3画鸣人.html)
+- [适合餐饮行业的精美css蒙版动画](https://sunyctf.github.io/front-end-demos/css-effects/适合餐饮行业的精美css蒙版动画/index.html)
 
 ### border-effects
 
