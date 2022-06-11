@@ -3,7 +3,7 @@
 #### 介绍
 - 这款由HTML5+CSS3实现的圆盘时钟上有着标准的时针、分针、秒针走动，同时左侧还有数字显示当前时间。同时在秒针走动的时候时钟还会发出滴答声，完美的再现了真实的时钟动画效果。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS+JS圆盘时钟动画特效/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3+JS圆盘时钟动画特效/index.html)
 
 #### 软件架构
 软件架构说明
