@@ -4,7 +4,7 @@
 
 - 用css可以做很多意想不到的网页特效，比如今天要分享的这款适合餐饮行业的精美css蒙版动画，画面中是一张美食图片，随即会出现一层朦胧现象覆盖在图片上，并伴随食物热气腾腾的蒸汽动画，效果绝绝子。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects适合餐饮行业的精美css蒙版动画/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/适合餐饮行业的精美css蒙版动画/index.html)
 
 #### 软件架构
 
