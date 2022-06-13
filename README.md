@@ -35,6 +35,7 @@
 - [HTML5+CSS3实现地球自转](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3实现地球自转/index.html)
 - [HTML5+CSS3画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3画鸣人.html)
 - [适合餐饮行业的精美css蒙版动画](https://sunyctf.github.io/front-end-demos/css-effects/适合餐饮行业的精美css蒙版动画/index.html)
+- [极简大气的css卡片悬停效果](https://sunyctf.github.io/front-end-demos/css-effects/极简大气的css卡片悬停效果/index.html)
 
 ### border-effects
 
