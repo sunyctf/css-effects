@@ -44,6 +44,7 @@
 - [HTMl5+CSS3多组漂亮的按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3多组漂亮的按钮边框特效.html)
 - [HTMl5+CSS3图片边框动画](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3图片边框动画/Demo.html)
 - [6种炫酷的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/6种炫酷的css按钮边框特效/index.html)
+- [css3鼠标悬停边框图片特效](https://sunyctf.github.io/front-end-demos/border-effects/css3鼠标悬停边框图片特效/index.html)
 
 ### login
 
