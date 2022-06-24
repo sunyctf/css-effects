@@ -4,7 +4,7 @@
 
 - 云朵视差特效代码，纯css3实现的天空云层动态特效。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/极简大气的css卡片悬停效果/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/纯css3实现天空云层动态特效/index.html)
 
 #### 软件架构
 
