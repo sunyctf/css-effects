@@ -4,7 +4,7 @@
 
 - 使用css3代码实现的恐龙夫妇动画，关于爱情表白的css动画特效。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/纯css3实现天空云层动态特效/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/CSS3可爱的恐龙夫妇爱情/index.html)
 
 #### 软件架构
 
