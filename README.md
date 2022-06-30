@@ -36,7 +36,8 @@
 - [HTML5+CSS3画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3画鸣人.html)
 - [适合餐饮行业的精美css蒙版动画](https://sunyctf.github.io/front-end-demos/css-effects/适合餐饮行业的精美css蒙版动画/index.html)
 - [极简大气的css卡片悬停效果](https://sunyctf.github.io/front-end-demos/css-effects/极简大气的css卡片悬停效果/index.html)
-- [纯css3实现天空云层动态特效]((https://sunyctf.github.io/front-end-demos/纯css3实现天空云层动态特效/index.html))
+- [纯css3实现天空云层动态特效](https://sunyctf.github.io/front-end-demos/纯css3实现天空云层动态特效/index.html)
+- [css3实现的恐龙夫妇动画](https://sunyctf.github.io/front-end-demos/css3实现的恐龙夫妇动画/index.html)
 
 ### border-effects
 
