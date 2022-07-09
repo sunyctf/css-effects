@@ -39,6 +39,7 @@
 - [纯css3实现天空云层动态特效](https://sunyctf.github.io/front-end-demos/纯css3实现天空云层动态特效/index.html)
 - [css3实现的恐龙夫妇动画](https://sunyctf.github.io/front-end-demos/css3实现的恐龙夫妇动画/index.html)
 - [CSS3鼠标悬停图像高亮放大特效](https://sunyctf.github.io/front-end-demos/CSS3鼠标悬停图像高亮放大特效/index.html)
+- [css3鼠标悬停图片特效](https://sunyctf.github.io/front-end-demos/css3鼠标悬停图片特效/index.html)
 
 ### border-effects
 
