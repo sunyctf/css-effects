@@ -42,6 +42,7 @@
 - [css3鼠标悬停图片特效](https://sunyctf.github.io/front-end-demos/css3鼠标悬停图片特效/index.html)
 - [纯CSS3网站会员登录注册表单切换效果](https://sunyctf.github.io/front-end-demos/纯CSS3网站会员登录注册表单切换效果/index.html)
 - [CSS滚动显示页面效果](https://sunyctf.github.io/front-end-demos/CSS滚动显示页面效果/index.html)
+- [CSS3旅游画廊悬停放大动画](https://sunyctf.github.io/front-end-demos/CSS3旅游画廊悬停放大动画/index.html)
 
 ### border-effects
 
