@@ -43,6 +43,7 @@
 - [纯CSS3网站会员登录注册表单切换效果](https://sunyctf.github.io/front-end-demos/纯CSS3网站会员登录注册表单切换效果/index.html)
 - [CSS滚动显示页面效果](https://sunyctf.github.io/front-end-demos/CSS滚动显示页面效果/index.html)
 - [CSS3旅游画廊悬停放大动画](https://sunyctf.github.io/front-end-demos/CSS3旅游画廊悬停放大动画/index.html)
+- [CSS实现的3D文字阴影动画](https://sunyctf.github.io/front-end-demos/CSS实现的3D文字阴影动画/index.html)
 
 ### border-effects
 
