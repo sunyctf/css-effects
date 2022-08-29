@@ -36,14 +36,14 @@
 - [HTML5+CSS3画鸣人](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3画鸣人.html)
 - [适合餐饮行业的精美css蒙版动画](https://sunyctf.github.io/front-end-demos/css-effects/适合餐饮行业的精美css蒙版动画/index.html)
 - [极简大气的css卡片悬停效果](https://sunyctf.github.io/front-end-demos/css-effects/极简大气的css卡片悬停效果/index.html)
-- [纯css3实现天空云层动态特效](https://sunyctf.github.io/front-end-demos/纯css3实现天空云层动态特效/index.html)
-- [css3实现的恐龙夫妇动画](https://sunyctf.github.io/front-end-demos/css3实现的恐龙夫妇动画/index.html)
-- [CSS3鼠标悬停图像高亮放大特效](https://sunyctf.github.io/front-end-demos/CSS3鼠标悬停图像高亮放大特效/index.html)
-- [css3鼠标悬停图片特效](https://sunyctf.github.io/front-end-demos/css3鼠标悬停图片特效/index.html)
-- [纯CSS3网站会员登录注册表单切换效果](https://sunyctf.github.io/front-end-demos/纯CSS3网站会员登录注册表单切换效果/index.html)
-- [CSS滚动显示页面效果](https://sunyctf.github.io/front-end-demos/CSS滚动显示页面效果/index.html)
-- [CSS3旅游画廊悬停放大动画](https://sunyctf.github.io/front-end-demos/CSS3旅游画廊悬停放大动画/index.html)
-- [CSS实现的3D文字阴影动画](https://sunyctf.github.io/front-end-demos/CSS实现的3D文字阴影动画/index.html)
+- [纯css3实现天空云层动态特效](https://sunyctf.github.io/front-end-demos/css-effects/纯css3实现天空云层动态特效/index.html)
+- [css3实现的恐龙夫妇动画](https://sunyctf.github.io/front-end-demos/css-effects/css3实现的恐龙夫妇动画/index.html)
+- [CSS3鼠标悬停图像高亮放大特效](https://sunyctf.github.io/front-end-demos/css-effects/CSS3鼠标悬停图像高亮放大特效/index.html)
+- [css3鼠标悬停图片特效](https://sunyctf.github.io/front-end-demos/css-effects/css3鼠标悬停图片特效/index.html)
+- [纯CSS3网站会员登录注册表单切换效果](https://sunyctf.github.io/front-end-demos/css-effects/纯CSS3网站会员登录注册表单切换效果/index.html)
+- [CSS滚动显示页面效果](https://sunyctf.github.io/front-end-demos/css-effects/CSS滚动显示页面效果/index.html)
+- [CSS3旅游画廊悬停放大动画](https://sunyctf.github.io/front-end-demos/css-effects/CSS3旅游画廊悬停放大动画/index.html)
+- [CSS实现的3D文字阴影动画](https://sunyctf.github.io/front-end-demos/css-effects/CSS实现的3D文字阴影动画/index.html)
 
 ### border-effects
 
