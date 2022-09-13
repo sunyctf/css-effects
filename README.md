@@ -45,6 +45,7 @@
 - [CSS3旅游画廊悬停放大动画](https://sunyctf.github.io/front-end-demos/css-effects/CSS3旅游画廊悬停放大动画/index.html)
 - [CSS实现的3D文字阴影动画](https://sunyctf.github.io/front-end-demos/css-effects/CSS实现的3D文字阴影动画/index.html)
 - [CSS图片淡入动画效果](https://sunyctf.github.io/front-end-demos/css-effects/CSS图片淡入动画效果/index.html)
+- [css折叠图像效果](https://sunyctf.github.io/front-end-demos/css-effects/css折叠图像效果/index.html)
 
 ### border-effects
 
