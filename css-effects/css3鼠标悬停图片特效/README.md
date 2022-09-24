@@ -4,7 +4,7 @@
 
 - 悬停展示被运用在很多场景网页中，今日为大家推荐一款css3鼠标悬停图片特效，图片悬停效果源码，简单大方的效果，供大家参考。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css3鼠标悬停图片特效/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/css3鼠标悬停图片特效/index.html)
 
 #### 软件架构
 
