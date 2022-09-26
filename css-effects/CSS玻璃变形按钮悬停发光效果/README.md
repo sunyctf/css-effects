@@ -3,7 +3,7 @@
 #### 介绍
 
 - 按钮动画效果，简单实用的CSS玻璃变形按钮悬停发光效果，鼠标悬停于按钮上，可以发光发亮，三种不同色彩的发光按钮
-- [Demo预览](https://sunyctf.github.io/front-end-demos/CSS玻璃变形按钮悬停发光效果/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/CSS玻璃变形按钮悬停发光效果/index.html)
 
 #### 软件架构
 
