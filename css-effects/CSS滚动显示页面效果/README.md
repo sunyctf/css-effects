@@ -4,7 +4,7 @@
 
 - 一款滚动页面代码，实用的css页面滚动，精美大气的页面布局，通过鼠标可实现图片和文本的上下滚动显示，希望对大家有帮助。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/CSS滚动显示页面效果/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/CSS滚动显示页面效果/index.html)
 
 #### 软件架构
 
