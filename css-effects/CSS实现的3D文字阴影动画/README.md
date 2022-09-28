@@ -3,8 +3,7 @@
 #### 介绍
 
 - 一款3D文字动画，简单实用的css3字体动画特效，3D阴影的独特效果，给人不一样的视觉感受，可以使用到不同的网站中，相信大家一定会喜欢的！
-- [Demo预览](https://sunyctf.github.io/front-end-demos/CSS实现的3D文字阴影动画/index.html)
-- 发布时间：*2022-08-26 09:38:32*
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/CSS实现的3D文字阴影动画/index.html)
 
 #### 软件架构
 
