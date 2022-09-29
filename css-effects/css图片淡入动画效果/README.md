@@ -3,7 +3,7 @@
 #### 介绍
 
 - 简单易用的css图片淡入动画效果，画面中的猫咪呈现渐进动画效果，可替换任何图片。
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css图片淡入动画效果/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/css图片淡入动画效果/index.html)
 
 #### 软件架构
 
