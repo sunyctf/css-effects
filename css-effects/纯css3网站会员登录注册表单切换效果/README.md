@@ -4,7 +4,7 @@
 
 - 一款会员登录注册代码，精美的登录注册页面代码html，实现用户注册和登陆的实例，深蓝色的页面设计，精美简约，希望你会喜欢。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/纯css3网站会员登录注册表单切换效果/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/纯css3网站会员登录注册表单切换效果/index.html)
 
 #### 软件架构
 
