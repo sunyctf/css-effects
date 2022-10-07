@@ -49,6 +49,7 @@
 - [鼠标悬停切换动画效果](https://sunyctf.github.io/front-end-demos/css-effects/鼠标悬停切换动画效果/index.html)
 - [CSS玻璃变形按钮悬停发光效果](https://sunyctf.github.io/front-end-demos/css-effects/CSS玻璃变形按钮悬停发光效果/index.html)
 - [css3鼠标悬停图片扩展显示特效](https://sunyctf.github.io/front-end-demos/css-effects/css3鼠标悬停图片扩展显示特效/index.html)
+- [精美的图像画廊展示悬停特效](https://sunyctf.github.io/front-end-demos/css-effects/精美的图像画廊展示悬停特效/index.html)
 
 ### border-effects
 
