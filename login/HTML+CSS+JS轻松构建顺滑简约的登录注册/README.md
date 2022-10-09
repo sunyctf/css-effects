@@ -3,7 +3,7 @@
 #### 介绍
 采用HTML、CSS、JavaScript实现一个简约顺滑的登录注册页💦
 
-- **[Demo预览](https://sunyctf.github.io/front-end-demos/login/HTML+CSS+JS轻松构建顺滑简约的登录注册/index.html)**
+- [Demo预览](https://sunyctf.github.io/front-end-demos/login/HTML+CSS+JS轻松构建顺滑简约的登录注册/index.html)
 
 #### 软件架构
 软件架构说明
