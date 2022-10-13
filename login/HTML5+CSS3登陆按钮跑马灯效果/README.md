@@ -3,7 +3,7 @@
 #### 介绍
 HTML+CSS 完成登录页面UI    
 
-- **[Demo预览](https://sunyctf.github.io/front-end-demos/login/ui_0/index.html)**
+- [Demo预览](https://sunyctf.github.io/front-end-demos/login/ui_0/index.html)
 
 #### 软件架构
 软件架构说明
