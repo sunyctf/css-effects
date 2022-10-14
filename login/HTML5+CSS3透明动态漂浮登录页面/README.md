@@ -3,7 +3,7 @@
 #### 介绍
 HTML5+CSS3透明动态漂浮登录页面💦
 
-- **[Demo预览](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3透明动态漂浮登录页面/index.html)**
+- [Demo预览](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3透明动态漂浮登录页面/index.html)
 
 #### 软件架构
 软件架构说明
