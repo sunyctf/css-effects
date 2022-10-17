@@ -1,9 +1,9 @@
-# HTML5+CSS3登陆按钮跑马灯效果
+# HTML5+CSS3实现简易超帅的登录界面
 
 #### 介绍
-HTML5+CSS3登陆按钮跑马灯效果
+HTML5+CSS3实现简易超帅的登录界面
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3登陆按钮跑马灯效果/index.html)
+- [Demo预览](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3实现简易超帅的登录界面/index.html)
 
 #### 软件架构
 软件架构说明
