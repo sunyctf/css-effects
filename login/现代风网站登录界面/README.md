@@ -3,7 +3,7 @@
 #### 介绍
 一款现代风网站登录界面，蓝白色的搭配，非常大气简约，可以适用的范围十分广泛💦
 
-- **[Demo预览](https://sunyctf.github.io/front-end-demos/login/现代风网站登录界面/index.html)**
+- [Demo预览](https://sunyctf.github.io/front-end-demos/login/现代风网站登录界面/index.html)
 
 #### 软件架构
 软件架构说明
