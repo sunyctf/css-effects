@@ -52,6 +52,7 @@
 - [精美的图像画廊展示悬停特效](https://sunyctf.github.io/front-end-demos/css-effects/精美的图像画廊展示悬停特效/index.html)
 - [纯css3鬼步月球404页面特效](https://sunyctf.github.io/front-end-demos/css-effects/纯css3鬼步月球404页面特效/index.html)
 - [卡片互动悬停下载动画](https://sunyctf.github.io/front-end-demos/css-effects/卡片互动悬停下载动画/index.html)
+- [css故障风格文字动画效果](https://sunyctf.github.io/front-end-demos/css-effects/css故障风格文字动画效果/index.html)
 
 ### border-effects
 
