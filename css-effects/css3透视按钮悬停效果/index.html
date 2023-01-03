@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>透视按钮悬停效果</title>
+    <style>
+      body {
+        margin: 0;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: cornsilk;
+      }
+
+      ul {
+        padding: 0;
+        list-style-type: none; /*去掉无序列表的默认样式*/
+      }
+
+      ul li {
+        box-sizing: border-box;
+        width: 15em; /*以20px为基准，此处是300px*/
+        height: 3em;
+        font-size: 20px;
+        border-radius: 0.5em;
+        margin: 0.5em;
+        box-shadow: 0 0 1em rgba(0, 0, 0, 0.2); /*阴影效果的设置*/
+        color: white;
+        font-family: sans-serif;
+        text-transform: capitalize; /*首字母大写*/
+        line-height: 3em;
+        transition: 0.3s; /*改变时的过渡效果*/
+        cursor: pointer;
+      }
+
+      ul li:nth-child(odd) {
+        background: linear-gradient(
+          to right,
+          orange,
+          tomato
+        ); /*从左至右的渐变色效果*/
+        text-align: left;
+        padding-left: 10%;
+        transform: perspective(500px) rotateY(45deg); /*3D透视效果和旋转的设置，图形沿着Y轴逆时针旋转45°*/
+      }
+
+      ul li:nth-child(even) {
+        background: linear-gradient(to left, orange, tomato);
+        text-align: right;
+        padding-right: 10%;
+        transform: perspective(500px) rotateY(-45deg); /*距离视图的距离，参数越大说明距离视图越远，看着就越小*/
+      }
+
+      ul li:nth-child(odd):hover {
+        /*鼠标悬停时的效果*/
+        transform: perspective(200px) rotateY(45deg);
+        padding-left: 5%;
+      }
+
+      ul li:nth-child(even):hover {
+        transform: perspective(200px) rotateY(-45deg);
+        padding-right: 5%;
+      }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li>home</li>
+      <li>products</li>
+      <li>services</li>
+      <li>contact</li>
+    </ul>
+  </body>
+</html>
