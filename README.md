@@ -10,8 +10,8 @@
 
 ## 内容目录
 
-- [css-特效](#css-effects)
-- [边框-特效](#border-effects)
+- [CSS特效](#css-effects)
+- [边框特效](#border-effects)
 - [导航栏设计](#navbar)
 
 ### css-effects
@@ -73,7 +73,7 @@
 
 ## 使用说明
 
-HTMl、CSS3、JavaScript、DOM、Jquery
+HTMl5、CSS3
 
 ## 安装教程
 
