@@ -4,14 +4,14 @@
 
 ## 仓库介绍
 
-前端特效demo合集，主要收集平时工作和学习中的前端特效，在这里总能找到你需要的特效，如果你喜欢的话就Star 一下吧！Front-end-aesthetics，和大家一起制作有设计感的前端界面！相互学习，互相交流，一起探讨，共同进步！
+前端css特效—front-end-css-effects，如果你喜欢的话就Star 一下吧！
+
+希望和大家，相互学习，互相交流，一起探讨，共同进步！
 
 ## 内容目录
 
 - [css-特效](#css-effects)
-
 - [边框-特效](#border-effects)
-- [登陆页设计](#login)
 - [导航栏设计](#navbar)
 
 ### css-effects
@@ -65,19 +65,6 @@
 - [css3鼠标悬停边框图片特效](https://sunyctf.github.io/front-end-demos/border-effects/css3鼠标悬停边框图片特效/index.html)
 - [鼠标悬停边框环绕动画效果](https://sunyctf.github.io/front-end-demos/border-effects/鼠标悬停边框环绕动画效果/index.html)
 
-### login
-
-- [HTML5+CSS3登陆按钮跑马灯效果](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3登陆按钮跑马灯效果/index.html)
-- [HTML5+CSS3+JS登陆注册页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JS登陆注册页面/index.html)
-- [HTML5+CSS3+JS登陆注册页面0](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JS登陆注册页面0/signin.html)
-- [HTML5+CSS3唯美登录页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3唯美登录页面.html)
-- [HTML5+CSS3透明动态漂浮登录页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3透明动态漂浮登录页面/index.html)
-- [HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面0](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面0/index.html)
-- [HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面1](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JQuery可爱的熊猫遮眼登录界面1/index.html)
-- [HTML5+CSS3+JS左右切换登录注册页面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3+JS左右切换登录注册页面/index.html)
-- [HTML+CSS+JS轻松构建顺滑简约的登录注册](https://sunyctf.github.io/front-end-demos/login/HTML+CSS+JS轻松构建顺滑简约的登录注册/index.html)
-- [HTML5+CSS3实现简易超帅的登录界面](https://sunyctf.github.io/front-end-demos/login/HTML5+CSS3实现简易超帅的登录界面/index.html)
-
 ### navbar
 
 - [HTML+CSS侧边展开导航栏](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3侧边展开导航栏/index.html)
@@ -86,7 +73,7 @@
 
 ## 使用说明
 
-HTMl、CSS3、JavaScript、DOM、Jquery、VUE
+HTMl、CSS3、JavaScript、DOM、Jquery
 
 ## 安装教程
 
