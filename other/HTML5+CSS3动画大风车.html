@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>纯css动画大风车，鼠标经过天气会变晴朗</title>
+    <style>
+      * {
+        margin: 0 auto;
+        padding: 0;
+      }
+      html,
+      body {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: rgb(21, 95, 95);
+      }
+      main {
+        width: 800px;
+        height: 500px;
+        /* border:1px solid white;
+	*/
+        position: relative;
+        overflow: hidden;
+        transition: 1s;
+      }
+      .caodi {
+        width: 500px;
+        height: 400px;
+        background: yellowgreen;
+        border-top-right-radius: 70%;
+        position: absolute;
+        bottom: -220px;
+      }
+      .caodi::after {
+        content: "";
+        width: 500px;
+        height: 400px;
+        background: greenyellow;
+        border-top-left-radius: 70%;
+        position: absolute;
+        right: -350px;
+        top: 40px;
+      }
+      #ganzi {
+        width: 5px;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 200px solid white;
+        z-index: 777;
+        position: absolute;
+      }
+      .gz-ls {
+        width: 5px;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 250px solid rgb(78, 77, 77);
+        position: absolute;
+        top: 66px;
+        left: 123px;
+        transform-origin: 50% 100%;
+        transform: rotate(-140deg);
+        opacity: 0.3;
+        transition: 1s;
+      }
+      .gz-rs {
+        width: 0px;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 250px solid rgb(78, 77, 77);
+        position: absolute;
+        top: 109px;
+        right: 121px;
+        transform-origin: 50% 100%;
+        transform: rotate(-140deg);
+        opacity: 0.3;
+        transition: 1s;
+      }
+      .gz-l {
+        position: absolute;
+        left: 120px;
+        top: 120px;
+      }
+      .gz-r {
+        position: absolute;
+        right: 120px;
+        top: 192px;
+        transform: scale(0.7);
+      }
+      .gz-r .zhuan {
+        animation: zhuan 2s linear infinite;
+      }
+      .zhuan {
+        animation: zhuan 4s linear infinite;
+      }
+      #lun {
+        width: 30px;
+        height: 30px;
+        background: rgb(126, 219, 20);
+        border-radius: 50%;
+        position: absolute;
+        left: -12px;
+        top: -17px;
+        z-index: 999;
+      }
+      #lun::after {
+        content: "";
+        width: 10px;
+        height: 10px;
+        border-radius: 50%;
+        border: 3px dashed white;
+        position: absolute;
+        top: 7px;
+        left: 7px;
+      }
+      @keyframes zhuan {
+        0% {
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+      .yezi,
+      .yezi::before,
+      .yezi::after {
+        content: "";
+        width: 10px;
+        height: 0;
+        border-top: 0px solid transparent;
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-bottom: 100px solid rgb(148, 252, 116);
+        transform-origin: 50% 100%;
+        position: absolute;
+        z-index: 888;
+      }
+      .yezi {
+        top: -105px;
+        left: -8px;
+      }
+      .yezi::before {
+        transform: rotate(120deg);
+        top: 5px;
+      }
+      .yezi::after {
+        transform: rotate(-120deg);
+        left: -5px;
+        top: 5px;
+      }
+      #yun {
+        width: 150px;
+        height: 40px;
+        background: white;
+        border-radius: 50px;
+        position: absolute;
+        left: -200px;
+        z-index: 666;
+      }
+      #yun:nth-child(1) {
+        position: absolute;
+        top: 30px;
+        animation: move 18s linear -7s infinite;
+      }
+      #yun:nth-child(2) {
+        width: 80px;
+        height: 20px;
+        position: absolute;
+        top: 80px;
+        animation: move 16s linear -10s infinite;
+      }
+      #yun:nth-child(3) {
+        width: 80px;
+        height: 30px;
+        position: absolute;
+        top: 120px;
+        animation: move 15s linear -4s infinite;
+      }
+      @keyframes move {
+        0% {
+        }
+        100% {
+          transform: translateX(1000px);
+        }
+      }
+      #sun {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        background: rgb(255, 217, 0);
+        box-shadow: 0 0 20px yellow;
+        position: absolute;
+        right: -100px;
+        top: -100px;
+        transition: 1s;
+        transform: rotate(0deg);
+      }
+      main:hover {
+        background: rgb(64, 165, 165);
+      }
+      main:hover #sun {
+        right: -50px;
+        top: -50px;
+        transform: rotate(360deg);
+        background: rgb(250, 222, 63);
+        box-shadow: 0 0 200px rgb(241, 241, 138);
+      }
+      main:hover .gz-ls {
+        opacity: 1;
+      }
+      main:hover .gz-rs {
+        opacity: 1;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <div id="yun"></div>
+      <div id="yun"></div>
+      <div id="yun"></div>
+      <div id="sun"></div>
+      <div class="caodi"></div>
+      <div id="ganzi" class="gz-l">
+        <div class="zhuan">
+          <div id="lun"></div>
+          <section class="yezi"></section>
+        </div>
+      </div>
+      <div class="gz-ls"></div>
+      <div id="ganzi" class="gz-r">
+        <div class="zhuan">
+          <div id="lun"></div>
+          <section class="yezi"></section>
+        </div>
+      </div>
+      <div class="gz-rs"></div>
+    </main>
+  </body>
+</html>

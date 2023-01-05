@@ -1,0 +1,18 @@
+
+// Equation based on react-motion library: https://git.io/v4vMf
+//
+// How to derive this equation:
+//
+// 1. Go to Wolfram|Alpha.
+//
+// 2. Type in this equation:
+//    `f''(t) = -180(f(t) - 1) - 12(f'(t)); f'(0) = 0; f(0) = 0`
+//    Replace 180 and 12 with your desired stiffness and damping.
+//    react-motion has some nice presets: https://git.io/v4vMt
+//
+// 3. Replace the code below with the “approximate form” of the
+//    “differential equation solution.”
+//
+
+spring-wobbly(t)
+  return -0.5 * (2.71828 ** (-6 * t)) * (-2 * (2.71828 ** (6 * t)) + sin(12 * t) + 2 * cos(12 * t))

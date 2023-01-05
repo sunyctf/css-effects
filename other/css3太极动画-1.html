@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>纯css太极动画</title>
+    <style>
+      .taiji {
+        animation: que 4s linear infinite;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #ccc;
+        position: relative;
+        margin: 0 auto;
+        border-radius: 150px;
+        overflow: hidden;
+      }
+      .hei {
+        width: 300px;
+        height: 150px;
+        background-color: #000;
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .yin1 {
+        background-color: #fff;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 75px;
+        left: 0;
+        border-radius: 75px;
+      }
+      .yang1 {
+        background-color: #000;
+        height: 150px;
+        width: 150px;
+        position: absolute;
+        top: 75px;
+        right: 0;
+        border-radius: 75px;
+      }
+      .yin2 {
+        background-color: #000;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 140px;
+        left: 65px;
+        border-radius: 10px;
+      }
+      .yang2 {
+        background-color: #fff;
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        top: 140px;
+        right: 65px;
+        border-radius: 10px;
+      }
+      @keyframes que {
+        from {
+          transform: rotate(0deg);
+        }
+        to {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="taiji">
+      <div class="hei"></div>
+      <div class="yin1"></div>
+      <div class="yin2"></div>
+      <div class="yang1"></div>
+      <div class="yang2"></div>
+    </div>
+  </body>
+</html>

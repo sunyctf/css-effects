@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Travel Gallery (Flexbox and CSS Animations/Transitions)</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Abril+Fatface" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+<link rel="stylesheet" href="./src/style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="container">
+  <div class="slide anim-in">
+    <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/venice.jpg);"></div>
+    <div class="overlay"></div>
+    <div class="content">
+      <h1 class="title" data-title="Venice">Venice</h1>
+      <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/italian-emblem.svg);"></div>
+      <ul class="city-info">
+        <li class="country">Country: Italy</li>
+        <li class="founded">Founded: 697</li>
+        <li class="population">Population: 260,060</li>
+      </ul>
+    </div>
+    <div class="btn-close"></div>
+  </div>
+  <div class="slide anim-in">
+    <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/paris.jpg);"></div>
+    <div class="overlay"></div>
+    <div class="content">
+      <h1 class="title" data-title="Paris">Paris</h1>
+      <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/french-emblem.svg);"></div>
+      <ul class="city-info">
+        <li class="country">Country: France</li>
+        <li class="founded">Founded: ~250BC</li>
+        <li class="population">Population: 2.2 Million</li>
+      </ul>
+    </div>
+    <div class="btn-close"></div>
+  </div>
+  <div class="slide anim-in">
+    <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/salzburg.jpg);"></div>
+    <div class="overlay"></div>
+    <div class="content">
+      <h1 class="title" data-title="Salzburg">Salzburg</h1>
+      <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/austrian-emblem.svg);"></div>
+      <ul class="city-info">
+        <li class="country">Country: Austria</li>
+        <li class="founded">Founded: 1622</li>
+        <li class="population">Population: 145,871</li>
+      </ul>
+    </div>
+    <div class="btn-close"></div>
+  </div>
+  <div class="slide anim-in">
+    <div class="image" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/prague.jpg);"></div>
+    <div class="overlay"></div>
+    <div class="content">
+      <h1 class="title" data-title="Prague">Prague</h1>
+      <div class="emblem" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/544318/czech-emblem.svg);"></div>
+      <ul class="city-info">
+        <li class="country">Country: Czech Republic</li>
+        <li class="founded">Founded: 870</li>
+        <li class="population">Population: 1.2 Million</li>
+      </ul>
+    </div>
+    <div class="btn-close"></div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+  <script  src="./src/script.js"></script>
+
+</body>
+</html>
