@@ -2,9 +2,13 @@
 
 #### 介绍
 
-- css下载箭头代码，卡片互动悬停下载动画，内含4种不同款式的下载动画，十分炫酷，希望能得到大家的喜欢！
+css3下载箭头代码，卡片互动悬停下载动画，内含4种不同款式的下载动画，十分炫酷，希望能得到大家的喜欢！
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/卡片互动悬停下载动画/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/卡片互动悬停下载动画/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/卡片互动悬停下载动画/index.html)
+
+#### 软件架构
 
 #### 软件架构
 

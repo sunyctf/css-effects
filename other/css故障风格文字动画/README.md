@@ -1,10 +1,12 @@
-# 悬停放大的网页图片蒙版效果
+# CSS3故障风格文字动画效果
 
 #### 介绍
 
-- 悬停放大的网页图片蒙版效果，增添图片的艺术感，可以自由使用到网站中。
+一款css3故障风格文字动画效果，网页不停晃动
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/悬停放大的网页图片蒙版效果/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/css3故障风格文字动画/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css33D文字阴影/index.html)
 
 #### 软件架构
 

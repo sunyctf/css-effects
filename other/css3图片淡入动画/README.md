@@ -1,9 +1,12 @@
-# css图片淡入动画效果
+# css3图片淡入动画效果
 
 #### 介绍
 
-- 简单易用的css图片淡入动画效果，画面中的猫咪呈现渐进动画效果，可替换任何图片。
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/css图片淡入动画效果/index.html)
+简单易用的css3图片淡入动画效果，画面中的猫咪呈现渐进动画效果，可替换任何图片。
+
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3图片淡入动画/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3图片淡入动画/index.html)
 
 #### 软件架构
 

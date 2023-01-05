@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- css3鼠标悬停图片扩展显示特效，鼠标悬停可以实现图片扩展显示的动画特效。
+css3鼠标悬停图片扩展显示特效，鼠标悬停可以实现图片扩展显示的动画特效。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/css3鼠标悬停图片扩展显示特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3鼠标悬停图片扩展显示特效/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3鼠标悬停图片扩展显示特效/index.html)
 
 #### 软件架构
 

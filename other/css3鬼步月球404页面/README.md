@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 纯css3鬼步月球404页面特效，模仿迈克杰克逊的鬼步舞在月球上漫步，看起来很有创意，适合做网站404页面模板使用。
+纯css3鬼步月球404页面特效，模仿迈克杰克逊的鬼步舞在月球上漫步，看起来很有创意，适合做网站404页面模板使用。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/纯css3鬼步月球404页面特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3鬼步月球404页面/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3鬼步月球404页面/index.html)
 
 #### 软件架构
 

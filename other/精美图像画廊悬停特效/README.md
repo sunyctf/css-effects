@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 一款画廊展示页面设计，精美的图像画廊悬停特效，可以自定义编辑，运用到不同类型的网站中。
+一款画廊展示页面设计，精美的图像画廊悬停特效，可以自定义编辑，运用到不同类型的网站中。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/精美的图像画廊展示悬停特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/精美图像画廊悬停特效/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/精美图像画廊悬停特效/index.html)
 
 #### 软件架构
 

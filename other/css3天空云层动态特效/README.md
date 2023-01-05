@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 云朵视差特效代码，纯css3实现的天空云层动态特效。
+云朵视差特效代码，纯css3实现的天空云层动态特效。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/纯css3实现天空云层动态特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3天空云层动态特效/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3天空云层动态特效/index.html)
 
 #### 软件架构
 

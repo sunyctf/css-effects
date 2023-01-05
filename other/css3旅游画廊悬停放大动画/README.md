@@ -6,7 +6,7 @@
 
 #### 在线预览
 
-[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other-effects/css3旅游画廊悬停放大动画/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other-effects/css3旅游画廊悬停放大动画/index.html)
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3旅游画廊悬停放大动画/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3旅游画廊悬停放大动画/index.html)
 
 #### 软件架构
 

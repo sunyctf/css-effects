@@ -1,8 +1,8 @@
-## 透视按钮悬停效果
+## CSS3透视按钮悬停效果
 
 #### 效果演示：
 
-[Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/透视按钮悬停效果/index.html)
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3透视按钮悬停效果/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3透视按钮悬停效果/index.html)
 
 #### 代码部分：
 

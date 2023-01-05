@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 使用HTML5+CSS3完成了一个超好看的新拟态（NeumorphismIcon）鼠标经过的效果，快来看看吧！
+使用HTML5+CSS3完成了一个超好看的新拟态（NeumorphismIcon）鼠标经过的效果，快来看看吧！
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3新拟态鼠标经过特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3新拟态鼠标经过特效/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3新拟态鼠标经过特效/index.html)
 
 #### 软件架构
 软件架构说明

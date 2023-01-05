@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 图片高亮显示在页面中很常见，这是一款鼠标悬停图像高亮放大特效，动画特效效果很赞，希望大家喜欢。
+图片高亮显示在页面中很常见，这是一款鼠标悬停图像高亮放大特效，动画特效效果很赞，希望大家喜欢。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/鼠标悬停图像高亮放大特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3鼠标悬停图像高亮放大/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3鼠标悬停图像高亮放大/index.html)
 
 #### 软件架构
 

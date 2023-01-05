@@ -1,9 +1,11 @@
 # CSS3文字弹跳动画
 
 #### 介绍
-- 一款适合春天的css3文字弹簧动画，您可以用在自己的网页设计中，可自由编辑文本。
+一款适合春天的css3文字弹簧动画，您可以用在自己的网页设计中，可自由编辑文本。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3文字弹跳动画/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3文字弹跳/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3文字弹跳/index.html)
 
 #### 软件架构
 软件架构说明

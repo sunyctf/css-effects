@@ -2,11 +2,13 @@
 
 ### 效果图展示
 
-- 利用纯CSS3实现地球自转，下图为最终效果：
+利用纯CSS3实现地球自转，下图为最终效果：
 
 ![img](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/最终效果.gif)
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3实现地球自转/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3实现地球自转/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3实现地球自转/index.html)
 
 ### 素材
 

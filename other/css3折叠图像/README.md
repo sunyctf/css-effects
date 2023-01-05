@@ -1,9 +1,12 @@
-# css折叠图像效果
+# CSS3折叠图像效果
 
 #### 介绍
 
-- css折叠图像效果，可以看到网页中的图像呈现折叠折页的展示效果。
-- [Demo预览](https://sunyctf.github.io/front-end-demos/css-effects/css折叠图像效果/index.html)
+css3折叠图像效果，可以看到网页中的图像呈现折叠折页的展示效果。
+
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3折叠图像/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3折叠图像/index.html)
 
 #### 软件架构
 
