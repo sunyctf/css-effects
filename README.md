@@ -53,18 +53,18 @@
 
 ### border
 
-- [HTMl5+CSS3实现发光边框](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现发光边框.html)
-- [HTMl5+CSS3实现边框跑马灯效果](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现边框跑马灯效果.html)
-- [HTMl5+CSS3多组漂亮的按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3多组漂亮的按钮边框特效.html)
-- [HTMl5+CSS3图片边框动画](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3图片边框动画/Demo.html)
-- [6种炫酷的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/6种炫酷的css按钮边框特效/index.html)
-- [css3鼠标悬停边框图片特效](https://sunyctf.github.io/front-end-demos/border-effects/css3鼠标悬停边框图片特效/index.html)
-- [鼠标悬停边框环绕动画效果](https://sunyctf.github.io/front-end-demos/border-effects/鼠标悬停边框环绕动画效果/index.html)
+1. [HTMl5+CSS3实现发光边框](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现发光边框.html)
+2. [HTMl5+CSS3实现边框跑马灯效果](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现边框跑马灯效果.html)
+3. [HTMl5+CSS3多组漂亮的按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3多组漂亮的按钮边框特效.html)
+4. [HTMl5+CSS3图片边框动画](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3图片边框动画/Demo.html)
+5. [6种炫酷的css按钮边框特效](https://sunyctf.github.io/front-end-demos/border-effects/6种炫酷的css按钮边框特效/index.html)
+6. [css3鼠标悬停边框图片特效](https://sunyctf.github.io/front-end-demos/border-effects/css3鼠标悬停边框图片特效/index.html)
+7. [鼠标悬停边框环绕动画效果](https://sunyctf.github.io/front-end-demos/border-effects/鼠标悬停边框环绕动画效果/index.html)
 
 ### navbar
 
-- [css3侧边展开导航栏](https://sunyctf.github.io/css-effects/other/css3侧边展开导航栏/index.html)
-- [css3伸缩式导航栏](https://sunyctf.github.io/css-effects/navbar/css3伸缩式导航栏/index.html)
+1. [css3侧边展开导航栏](https://sunyctf.github.io/css-effects/other/css3侧边展开导航栏/index.html)
+2. [css3伸缩式导航栏](https://sunyctf.github.io/css-effects/navbar/css3伸缩式导航栏/index.html)
 
 ## 使用说明
 
