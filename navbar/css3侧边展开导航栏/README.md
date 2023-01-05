@@ -1,9 +1,11 @@
 # HTML5+CSS3侧边展开导航栏
 
 #### 介绍
-- HTML5+CSS3侧边展开导航栏（sidenav）
+HTML5+CSS3侧边展开导航栏（sidenav）
 
-- 💦[**Demo预览**](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3侧边展开导航栏/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3侧边展开导航栏/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3侧边展开导航栏/index.html)
 
 #### 软件架构
 软件架构说明

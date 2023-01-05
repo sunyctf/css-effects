@@ -6,7 +6,7 @@
 
 #### 在线预览
 
-[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3可爱恐龙夫妇爱情/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3可爱恐龙夫妇爱情/index.html)
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3玻璃变形按钮悬停发光/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3玻璃变形按钮悬停发光/index.html)
 
 #### 软件架构
 

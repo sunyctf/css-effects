@@ -1,9 +1,11 @@
 # 标题响应式导航栏菜单弹出效果
 
 #### 介绍
-- 一款标题响应式导航栏菜单弹出效果代码，浅蓝色和蓝色的拼接，给人一种水天相接的感受。
+一款标题响应式导航栏菜单弹出效果代码，浅蓝色和蓝色的拼接，给人一种水天相接的感受。
 
-- 💦[**Demo预览**](https://sunyctf.github.io/front-end-demos/navbar/标题响应式导航栏菜单弹出效果/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.github.io/js-effects/标题响应式导航栏菜单弹出效果/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.gitee.io/js-effects/标题响应式导航栏菜单弹出效果/index.html)
 
 #### 软件架构
 软件架构说明

@@ -63,9 +63,8 @@
 
 ### navbar
 
-- [HTML+CSS侧边展开导航栏](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3侧边展开导航栏/index.html)
-- [HTML+CSS伸缩式导航栏](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3伸缩式导航栏/index.html)
-- [标题响应式导航栏菜单弹出效果](https://sunyctf.github.io/front-end-demos/navbar/标题响应式导航栏菜单弹出效果/index.html)
+- [css3侧边展开导航栏](https://sunyctf.github.io/css-effects/other/css3侧边展开导航栏/index.html)
+- [css3伸缩式导航栏](https://sunyctf.github.io/css-effects/navbar/css3伸缩式导航栏/index.html)
 
 ## 使用说明
 

@@ -1,8 +1,11 @@
 # HTML5+CSS3伸缩式导航栏
 
 #### 介绍
-- HTML5+CSS3伸缩式导航栏
-- 💦[**Demo预览**](https://sunyctf.github.io/front-end-demos/navbar/HTML5+CSS3伸缩式导航栏/index.html)
+HTML5+CSS3伸缩式导航栏
+
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/other/css3伸缩式导航栏/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/other/css3伸缩式导航栏/index.html)
 
 #### 软件架构
 软件架构说明
