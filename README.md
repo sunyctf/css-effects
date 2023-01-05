@@ -10,11 +10,11 @@
 
 ## 内容目录
 
-- [CSS特效](#css-effects)
-- [边框特效](#border-effects)
+- [CSS特效](#other)
+- [边框特效](#border)
 - [导航栏设计](#navbar)
 
-### css-effects
+### other
 
 - [HTML5+CSS3动画大风车](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3动画大风车.html)
 - [HTML5+CSS3太极动画0](https://sunyctf.github.io/front-end-demos/css-effects/HTML5+CSS3太极动画0.html)
@@ -37,12 +37,12 @@
 - [适合餐饮行业的精美css蒙版动画](https://sunyctf.github.io/front-end-demos/css-effects/适合餐饮行业的精美css蒙版动画/index.html)
 - [极简大气的css卡片悬停效果](https://sunyctf.github.io/front-end-demos/css-effects/极简大气的css卡片悬停效果/index.html)
 - [纯css3实现天空云层动态特效](https://sunyctf.github.io/front-end-demos/css-effects/纯css3实现天空云层动态特效/index.html)
-- [css3实现的恐龙夫妇动画](https://sunyctf.github.io/front-end-demos/css-effects/css3实现的恐龙夫妇动画/index.html)
+- [css3恐龙夫妇动画](https://sunyctf.github.io/css-effects/other-effects/css3可爱恐龙夫妇爱情/index.html)
 - [CSS3鼠标悬停图像高亮放大特效](https://sunyctf.github.io/front-end-demos/css-effects/CSS3鼠标悬停图像高亮放大特效/index.html)
 - [css3鼠标悬停图片特效](https://sunyctf.github.io/front-end-demos/css-effects/css3鼠标悬停图片特效/index.html)
 - [纯CSS3网站会员登录注册表单切换效果](https://sunyctf.github.io/front-end-demos/css-effects/纯CSS3网站会员登录注册表单切换效果/index.html)
 - [CSS滚动显示页面效果](https://sunyctf.github.io/front-end-demos/css-effects/CSS滚动显示页面效果/index.html)
-- [CSS3旅游画廊悬停放大动画](https://sunyctf.github.io/front-end-demos/css-effects/CSS3旅游画廊悬停放大动画/index.html)
+- [css3旅游画廊悬停放大动画](https://sunyctf.github.io/css-effects/other-effects/css3旅游画廊悬停放大动画/index.html)
 - [CSS实现的3D文字阴影动画](https://sunyctf.github.io/front-end-demos/css-effects/CSS实现的3D文字阴影动画/index.html)
 - [CSS图片淡入动画效果](https://sunyctf.github.io/front-end-demos/css-effects/CSS图片淡入动画效果/index.html)
 - [css折叠图像效果](https://sunyctf.github.io/front-end-demos/css-effects/css折叠图像效果/index.html)
@@ -55,7 +55,7 @@
 - [css故障风格文字动画效果](https://sunyctf.github.io/front-end-demos/css-effects/css故障风格文字动画效果/index.html)
 - [css3透视按钮悬停效果](https://sunyctf.github.io/front-end-demos/css-effects/css3透视按钮悬停效果/index.html)
 
-### border-effects
+### border
 
 - [HTMl5+CSS3实现发光边框](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现发光边框.html)
 - [HTMl5+CSS3实现边框跑马灯效果](https://sunyctf.github.io/front-end-demos/border-effects/HTMl5+CSS3实现边框跑马灯效果.html)
