@@ -4,7 +4,7 @@
 
 利用纯CSS3实现地球自转，下图为最终效果：
 
-![img](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/最终效果.gif)
+![img](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/end-effect.gif)
 
 #### 在线预览
 
