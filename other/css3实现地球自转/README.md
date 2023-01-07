@@ -4,7 +4,7 @@
 
 利用纯CSS3实现地球自转，下图为最终效果：
 
-![img](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/最终效果.gif)
+![img](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/最终效果.gif)
 
 #### 在线预览
 
@@ -14,9 +14,9 @@
 
 两张图片，espaco.jpg(1600*1000)、terra.jpg(900*450)
 
-![背景太空](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/terra.jpg)
+![背景太空](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/terra.jpg)
 
-![背景太空](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/espaco.jpg)
+![背景太空](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/espaco.jpg)
 
 
 
@@ -60,7 +60,7 @@ width: 450px;
 
 效果图：
 
-![img](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/static.jpg)
+![img](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/static.jpg)
 
 **第二步，形成圆形地球效果，同时添加月晕效果**：
 
@@ -79,7 +79,7 @@ box-shadow: -8px 0 25px rgba(256,256,256,0.3), -1px -2px 14px rgba(256,256,256,0
 
 效果图：
 
-![圆形地球效果](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/round-earth.jpg)
+![圆形地球效果](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/round-earth.jpg)
 
 **第三步，形成白天黑夜效果**：
 
@@ -102,7 +102,7 @@ width: 450px;
 
 效果图：
 
-![img](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/css-effects/HTML5+CSS3实现地球自转/arc-shadow.jpg)
+![img](https://raw.githubusercontent.com/sunyctf/css-effects/main/other/CSS3实现地球自转/arc-shadow.jpg)
 
 **最后一步，形成地球自转效果**：
 
