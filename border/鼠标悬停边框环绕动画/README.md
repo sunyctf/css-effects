@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 一款css实现边框动态环绕效果，边框悬停特效，画面中是两张图片的对角边框，悬停任意一个即可产生边框动态环绕效果。
+一款css实现边框动态环绕效果，边框悬停特效，画面中是两张图片的对角边框，悬停任意一个即可产生边框动态环绕效果。
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/border-effects/鼠标悬停边框环绕动画效果/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/border/鼠标悬停边框环绕动画/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/border/鼠标悬停边框环绕动画/index.html)
 
 #### 软件架构
 
