@@ -55,7 +55,7 @@
 1. [css3发光边框](https://sunyctf.github.io/css-effects/border/css3发光边框.html)
 2. [css3边框跑马灯](https://sunyctf.github.io/css-effects/border/css3边框跑马灯.html)
 3. [css3多组漂亮按钮边框](https://sunyctf.github.io/css-effects/border/css3多组漂亮按钮边框.html)
-4. [css3图片边框动画](https://sunyctf.github.io/css-effects/border/css3图片边框动画/index.html)
+4. [鼠标悬停图片边框跑马灯](https://sunyctf.github.io/css-effects/border/鼠标悬停图片边框跑马灯/index.html)
 5. [6种炫酷css按钮边框](https://sunyctf.github.io/css-effects/border/6种炫酷css按钮边框/index.html)
 6. [css3鼠标悬停边框](https://sunyctf.github.io/css-effects/border/鼠标悬停边框/index.html)
 7. [鼠标悬停边框环绕动画](https://sunyctf.github.io/css-effects/border/鼠标悬停边框环绕动画/index.html)
