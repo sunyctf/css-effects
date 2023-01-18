@@ -1,9 +1,11 @@
 # 鼠标悬停显示图片边框的跑马灯动效
 
 #### 介绍
-- 鼠标悬停显示图片边框跑马灯动效
+鼠标悬停显示图片边框跑马灯动效
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/border-effects/图片边框动画/Demo.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/border/鼠标悬停图片边框跑马灯/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/border/鼠标悬停图片边框跑马灯/index.html)
 
 #### 软件架构
 软件架构说明

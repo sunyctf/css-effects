@@ -2,9 +2,11 @@
 
 #### 介绍
 
-- 一款css3鼠标悬停边框图片特效，只需要将鼠标悬停在任意图像上，即产生边框包住图片的动画效果。
+一款css3鼠标悬停边框图片特效，只需要将鼠标悬停在任意图像上，即产生边框包住图片的动画效果
 
-- [Demo预览](https://sunyctf.github.io/front-end-demos/border-effects/css3鼠标悬停边框图片特效/index.html)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/border/css3鼠标悬停边框/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/border/css3鼠标悬停边框框/index.html)
 
 #### 软件架构
 

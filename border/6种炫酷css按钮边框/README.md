@@ -1,10 +1,11 @@
 # 6种炫酷的css按钮边框特效
 
 #### 介绍
-- 6种炫酷的css按钮边框特效，用鼠标滑过下面的按钮看看效果！
-- [Demo预览](https://sunyctf.github.io/front-end-demos/border-effects/6种炫酷的css按钮边框特效/index.html)
+6种炫酷的css按钮边框特效，用鼠标滑过下面的按钮看看效果！
 
-![](https://raw.githubusercontent.com/sunyctf/front-end-demos/main/border-effects/6种炫酷的css按钮边框特效/be-0.gif)
+#### 在线预览
+
+[Github仓库](https://github.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.github.io/css-effects/border/6种炫酷css按钮边框/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/css-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/border/6种炫酷css按钮边框/index.html)
 
 #### 软件架构
 软件架构说明
