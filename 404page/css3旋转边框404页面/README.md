@@ -10,7 +10,7 @@ HTML + CSS + JS + DOM
 
 #### 在线预览
 
-[Github仓库](https://github.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.github.io/css-effects/404page/旋转边框/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/404page/旋转边框/index.html)
+[Github仓库](https://github.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.github.io/css-effects/404page/css3旋转边框404页面/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/404page/css3旋转边框404页面/index.html)
 
 #### 软件架构
 
