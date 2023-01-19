@@ -13,6 +13,7 @@
 - [CSS特效](#other)
 - [边框特效](#border)
 - [导航栏设计](#navbar)
+- [404page](#404page)
 
 ### other
 
@@ -44,8 +45,7 @@
 26. [css3玻璃变形按钮悬停发光](https://sunyctf.github.io/css-effects/other/css3玻璃变形按钮悬停发光/index.html)
 27. [css3鼠标悬停图片扩展显示特效](https://sunyctf.github.io/css-effects/other/css3鼠标悬停图片扩展显示特效/index.html)
 28. [精美图像画廊悬停特效](https://sunyctf.github.io/css-effects/other/精美图像画廊悬停特效/index.html)
-29. [css3鬼步月球404页面](https://sunyctf.github.io/css-effects/other/css3鬼步月球404页面/index.html)
-30. [卡片互动悬停下载动画](https://sunyctf.github.io/css-effects/other/卡片互动悬停下载动画/index.html)
+29. [卡片互动悬停下载动画](https://sunyctf.github.io/css-effects/other/卡片互动悬停下载动画/index.html)
 31. [css3故障风格文字动画](https://sunyctf.github.io/css-effects/css3故障风格文字动画/index.html)
 32. [css3透视按钮悬停效果](https://sunyctf.github.io/css-effects/other/css3透视按钮悬停效果/index.html)
 38. [悬停放大的图片蒙版效果](https://sunyctf.github.io/css-effects/other/悬停放大的图片蒙版效果/index.html)
@@ -64,6 +64,10 @@
 
 1. [css3侧边展开导航栏](https://sunyctf.github.io/css-effects/other/css3侧边展开导航栏/index.html)
 2. [css3伸缩式导航栏](https://sunyctf.github.io/css-effects/navbar/css3伸缩式导航栏/index.html)
+
+### 404page
+
+1. [css3鬼步月球404页面](https://sunyctf.github.io/css-effects/404page/css3鬼步月球404页面/index.html)
 
 ## 使用说明
 
