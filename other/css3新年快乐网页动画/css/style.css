@@ -1,0 +1,281 @@
+
+body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #000;
+    height: 100vh;
+}
+
+.newyear {
+    position: relative;
+}
+
+.numbers {
+    position: relative;
+    display: inline-flex;
+    font-size:100px;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    letter-spacing:20px;
+}
+
+.first {
+    color: #00509d;
+    text-shadow: 2px 2px 0 #ffd500;
+}
+
+.first:before {
+    content:"";
+    position: absolute;
+    background-color: #00509d;
+    height:15px;
+    width:3px;
+    left:35px;
+    top:12px;
+}
+
+.first:after {
+    content:"";
+    position: absolute;
+    background-color: #00509d;
+    width:20px;
+    height:10px;
+    border-radius: 0 0 30px 30px;
+    left:27px;
+    top:2px;
+}
+
+.second {
+    color: #fdc500;
+    text-shadow: 2px 2px 0 #70e000;
+}
+
+.second:before {
+    content:"";
+    position: absolute;
+    background-color: #fdc500;
+    height:15px;
+    width:3px;
+    left:125px;
+    top:12px;
+}
+
+.second:after {
+    content:"";
+    position: absolute;
+    background-color: #fdc500;
+    width:20px;
+    height:10px;
+    border-radius: 0 0 30px 30px;
+    left:117px;
+    top:2px;
+}
+
+.third {
+    color: #ff477e;
+    text-shadow: 2px 2px 0 #70e000;
+}
+
+.third:before {
+    content:"";
+    position: absolute;
+    background-color: #ff477e;
+    height:15px;
+    width:3px;
+    left:217px;
+    top:12px;
+}
+
+.third:after {
+    content:"";
+    position: absolute;
+    background-color: #ff477e;
+    width:20px;
+    height:10px;
+    border-radius: 0 0 30px 30px;
+    left:209px;
+    top:2px;
+}
+
+.fourth {
+    color: #e9ff70;
+    text-shadow: 2px 2px 0 #ff0a54;
+}
+
+.fourth:before {
+    content:"";
+    position: absolute;
+    background-color: #e9ff70;
+    height:15px;
+    width:3px;
+    left:309px;
+    top:13px;
+}
+
+.fourth:after {
+    content:"";
+    position: absolute;
+    background-color: #e9ff70;
+    width:20px;
+    height:10px;
+    border-radius: 0 0 30px 30px;
+    left:301px;
+    top:3px;
+}
+
+.text {
+    position: absolute;
+    left:86px;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    color: white;
+    text-shadow: 1px 1px 0 #9ef01a;
+}
+
+.fireworks {
+    position: absolute;
+}
+
+.spark1, .spark2, .spark3, .spark4, .spark5, .spark6 {
+    position: absolute;
+    background-color: #fee440;
+    border-radius:50%;
+    top:-9px;
+    z-index:-1;
+
+}
+
+.spark1 {
+    width: 8px;
+    height:8px;
+    left:30px;
+    top:-9px;
+    animation: fire 0.9s ease-in-out infinite, color 0.4s linear infinite;
+}
+
+.spark1:before {
+    content:"";
+    position: absolute;
+    width:5px;
+    height:5px;
+    top:8px;
+    left:11px;
+    background-color: #fee440;
+    border-radius:50%;
+}
+
+.spark2 {
+    width: 9px;
+    height:9px;
+    left:33px;
+    top:-5px;
+    animation: fire2 0.28s ease-in-out infinite, color 0.4s linear infinite;
+}
+
+.spark2:before {
+    content:"";
+    position: absolute;
+    width:5px;
+    height:5px;
+    top:12px;
+    left:3px;
+    background-color: #fee440;
+    border-radius:50%;
+}
+
+.spark3 {
+    width: 8.5px;
+    height:8.5px;
+    left:33px;
+    top:-5px;
+    animation: fire3 0.36s ease-in-out infinite, color2 0.4s linear infinite;
+}
+
+.spark3:before {
+    content:"";
+    position: absolute;
+    width:5px;
+    height:5px;
+    top:12px;
+    left:-1px;
+    background-color: #fee440;
+    border-radius:50%;
+}
+
+.spark4 {
+    width: 7px;
+    height:7px;
+    left:27px;
+    top:-5px;
+    animation: fire2 0.24s ease-in-out infinite, color2 0.2s linear infinite;
+}
+
+.spark5 {
+    width: 7px;
+    height:7px;
+    left:29px;
+    top:-5px;
+    animation: fire3 0.45s ease-in-out infinite, color3 0.2s linear infinite;
+}
+
+.spark6 {
+    width: 6px;
+    height:6px;
+    left:29px;
+    top:-5px;
+    animation: fire 0.35s ease-in-out infinite, color3 0.2s linear infinite;
+}
+
+.spark6 {
+    width: 7.5px;
+    height:7.5px;
+    left:35px;
+    top:-5px;
+    animation: fire2 0.35s ease-in-out infinite, color3 0.2s linear infinite;
+}
+
+@keyframes fire3 {
+    100% { transform:translateX(20px) translateY(-73px);
+        opacity: 0.3; }
+}
+
+@keyframes fire2 {
+    100% { transform:translateX(-5px) translateY(-70px);
+        opacity: 0.3; }
+}
+
+@keyframes fire {
+    100% { transform:translateX(-25px) translateY(-75px);
+        opacity: 0.3; }
+}
+
+@keyframes color {
+    from {background-color: #d00000;}
+    to {background-color: #0081a7;}
+}
+
+@keyframes color2 {
+    from {background-color: #8cff00;}
+    to {background-color: #1d2d44;}
+}
+
+@keyframes color3 {
+    from {background-color: #d81159;}
+    to {background-color: #1be7ff;}
+}
+
+.fireworks2 {
+    position: absolute;
+    left:90px;
+}
+
+.fireworks3 {
+    position: absolute;
+    left:182px;
+}
+
+.fireworks4 {
+    position: absolute;
+    left:275px;
+}
