@@ -4,10 +4,6 @@
 
 一款旋转边框效果404错误页面设计特效，该特效实现了红色边框顺时针旋转的动画效果，精简易用。
 
-#### 技术栈
-
-HTML + CSS + JS + DOM
-
 #### 在线预览
 
 [Github仓库](https://github.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.github.io/css-effects/404page/css3旋转边框404页面/index.html) 🌐 [Gitee仓库](https://gitee.com/sunyctf/js-effects) | [Demo预览](https://sunyctf.gitee.io/css-effects/404page/css3旋转边框404页面/index.html)
