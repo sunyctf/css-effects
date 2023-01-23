@@ -49,6 +49,7 @@
 31. [css3故障风格文字动画](https://sunyctf.github.io/css-effects/css3故障风格文字动画/index.html)
 32. [css3透视按钮悬停效果](https://sunyctf.github.io/css-effects/other/css3透视按钮悬停效果/index.html)
 38. [悬停放大的图片蒙版效果](https://sunyctf.github.io/css-effects/other/悬停放大的图片蒙版效果/index.html)
+38. [css3新年快乐网页动画](https://sunyctf.github.io/css-effects/other/css3新年快乐网页动画/index.html)
 
 ### border
 
