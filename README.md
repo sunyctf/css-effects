@@ -65,6 +65,7 @@
 
 1. [css3侧边展开导航栏](https://sunyctf.github.io/css-effects/navbar/css3侧边展开导航栏/index.html)
 2. [css3伸缩式导航栏](https://sunyctf.github.io/css-effects/navbar/css3伸缩式导航栏/index.html)
+2. [css3弹性导航下拉菜单](https://sunyctf.github.io/css-effects/navbar/css3弹性导航下拉菜单/index.html)
 
 ### 404page
 
