@@ -1,0 +1,39 @@
+body {
+  background: #1d1f20;
+}
+/* Basic styles */
+h1 {
+	position: relative;
+	float: left;
+	color: #d7b94c;
+	font-family: 'Inconsolata', Consolas, monospace;
+	font-size: 4em;
+	margin:100px;
+}
+h1 span{
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #1d1f20;
+	width: 100%;
+	border-left: .1em solid transparent;
+	-webkit-animation: typing 3s steps(16) forwards,
+										 cursor 1s infinite;
+	animation: typing 3s steps(16) forwards,
+						 cursor 1s infinite;
+}
+/* Animation */
+@-webkit-keyframes typing{
+	from { width: 100%;}
+	to { width: 0;}
+}
+@-webkit-keyframes cursor{
+	50% { border-color: white;}
+}
+@keyframes typing{
+	from{ width: 100%;}
+	to{ width: 0;}
+}
+@keyframes cursor{
+	50% { border-color: white;}
+}
