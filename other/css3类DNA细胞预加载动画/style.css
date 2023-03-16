@@ -1,0 +1,107 @@
+body {
+    min-height: 100vh;
+    display: grid;
+    align-content: center;
+    background: #111;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 1.5rem;
+    max-width: 60rem;
+    margin: auto;
+    grid-row: 1/2;
+    grid-column: 1/2;
+}
+
+.container svg {
+    width: 100%;
+    height: auto;
+    animation: spin 0.8s ease-in-out alternate infinite;
+}
+
+.container svg circle {
+    animation: pulse 0.8s ease-in-out alternate infinite;
+    transform-origin: 50% 50%;
+}
+
+.container svg.blue {
+    fill: #0052b7;
+    animation: spin_reverse 0.8s ease-in-out alternate infinite;
+}
+
+.container svg.blue circle {
+    animation-delay: 0.8s;
+}
+
+.container svg.yellow {
+    fill: #ffd600;
+}
+
+.container svg:nth-of-type(1) {
+    animation-delay: 0.2s;
+}
+
+.container svg:nth-of-type(2) {
+    animation-delay: 0.4s;
+}
+
+.container svg:nth-of-type(3) {
+    animation-delay: 0.6s;
+}
+
+.container svg:nth-of-type(4) {
+    animation-delay: 0.8s;
+}
+
+.container svg:nth-of-type(5) {
+    animation-delay: 1s;
+}
+
+.container svg:nth-of-type(6) {
+    animation-delay: 1.2s;
+}
+
+.container svg:nth-of-type(7) {
+    animation-delay: 1.4s;
+}
+
+.container svg:nth-of-type(8) {
+    animation-delay: 1.6s;
+}
+
+.container svg:nth-of-type(9) {
+    animation-delay: 1.8s;
+}
+
+.container svg:nth-of-type(10) {
+    animation-delay: 2s;
+}
+
+@keyframes spin {
+    0% {
+        transform: translateY(150%);
+    }
+    100% {
+        transform: translateY(-150%);
+    }
+}
+
+@keyframes spin_reverse {
+    0% {
+        transform: translateY(-150%);
+    }
+    100% {
+        transform: translateY(150%);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(0.25);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
