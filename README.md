@@ -73,6 +73,7 @@
 
 1. [css3鬼步月球404页面](https://sunyctf.github.io/css-effects/404page/css3鬼步月球404页面/index.html)
 1. [css3旋转边框404页面](https://sunyctf.github.io/css-effects/404page/css3旋转边框404页面/index.html)
+1. [css3蜗牛404页面](https://sunyctf.github.io/css-effects/404page/css3蜗牛404页面/index.html)
 
 ## 使用说明
 
