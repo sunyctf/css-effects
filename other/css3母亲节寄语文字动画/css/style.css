@@ -1,11 +1,12 @@
 @keyframes loading {
   0%, 100% {
-    -moz-transform: scale(1) rotateZ(0deg);
-    -ms-transform: scale(1) rotateZ(0deg);
-    -webkit-transform: scale(1) rotateZ(0deg);
-    transform: scale(1) rotateZ(0deg);
+    -moz-transform: scale(1) r1otateZ(0deg);
+    -ms-transform: scale(1) r1otateZ(0deg);
+    -webkit-transform: scale(1) r1otateZ(0deg);
+    transform: scale(1) r1otateZ(0deg);
     opacity: 1;
-  }
+    -o-transform: scale(1) r1otateZ(0deg);
+}
   
   26% {
     -moz-transform: scale(1.1) rotateZ(12deg);
