@@ -53,6 +53,7 @@
 38. [css3光标闪烁动态输入打字动画](https://sunyctf.github.io/css-effects/other/css3光标闪烁动态输入打字动画/index.html)
 38. [css3类DNA细胞预加载动画](https://sunyctf.github.io/css-effects/other/css3类DNA细胞预加载动画/index.html)
 38. [css3母亲节寄语文字动画](https://sunyctf.github.io/css-effects/other/css3母亲节寄语文字动画/index.html)
+38. [HTML5模拟手电筒照明效果](https://sunyctf.github.io/css-effects/other/HTML5模拟手电筒照明效果/index.html)
 
 ### border
 
