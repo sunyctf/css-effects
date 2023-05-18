@@ -1,0 +1,241 @@
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Poiret+One);
+body {
+    background: #45b9d3;
+    color: white;
+    overflow: hidden;
+}
+
+.dark {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(29, 25, 52, 0.9);
+    z-index: 5000;
+}
+
+h1,
+h2 {
+    position: relative;
+    text-align: center;
+    font-family: "Poiret One", "Oleo Script", cursive;
+    text-shadow: 1px 1px 1px rgba(77, 77, 77, 0.5);
+    z-index: 1000;
+    margin: 0;
+}
+
+h1 {
+    margin-top: 4.5rem;
+    font-size: 8vw;
+}
+
+h2 {
+    font-size: 6vw;
+    font-family: "Oleo Script", cursive;
+}
+
+.sun {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 3rem;
+    height: 3rem;
+    background: khaki;
+    border-radius: 100%;
+    box-shadow: 0 0 20px khaki;
+}
+
+.flowers {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+.flower {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flower_head {
+    height: 7rem;
+    width: 7rem;
+    background: #cba8ed;
+    border-radius: 100%;
+}
+
+.flower_stem {
+    width: 0.5rem;
+    height: 20rem;
+    max-height: 0;
+    background: #86af6e;
+}
+
+.flower_stem::after {
+    content: "";
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    width: 3em;
+    height: 3em;
+    display: block;
+    background: #4d916e;
+    border-radius: 2em 0 2em 0em;
+}
+
+.yellow {
+    width: 7.5rem;
+    height: 7.5rem;
+    background: khaki;
+}
+
+.pink {
+    width: 6rem;
+    height: 6rem;
+    background: #e2b1b1;
+}
+
+.fadeIn {
+    opacity: 0;
+    -webkit-animation: fadeIn 1s 2s ease-in forwards;
+    animation: fadeIn 1s 2s ease-in forwards;
+}
+
+.slideIn {
+    transform: translateX(-5rem);
+    -webkit-animation: slideIn 3s ease-out forwards;
+    animation: slideIn 3s ease-out forwards;
+}
+
+.fadeOut {
+    opacity: 1;
+    -webkit-animation: fadeOut 4s 0.25s ease forwards;
+    animation: fadeOut 4s 0.25s ease forwards;
+}
+
+.delay-1 {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+}
+
+.grow-12 {
+    -webkit-animation: grow-12 2s 0.5s ease-in-out forwards;
+    animation: grow-12 2s 0.5s ease-in-out forwards;
+}
+
+.grow-15 {
+    -webkit-animation: grow-15 2s 1.5s ease-in-out forwards;
+    animation: grow-15 2s 1.5s ease-in-out forwards;
+}
+
+.grow-9 {
+    -webkit-animation: grow-9 2s 2.5s ease-in-out forwards;
+    animation: grow-9 2s 2.5s ease-in-out forwards;
+}
+
+.pulse {
+    -webkit-animation: pulse 1s 0.5s ease-in-out infinite alternate;
+    animation: pulse 1s 0.5s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes slideIn {
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slideIn {
+    100% {
+        transform: translateX(0);
+    }
+}
+
+@-webkit-keyframes fadeOut {
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes fadeOut {
+    100% {
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes grow-12 {
+    100% {
+        max-height: 14rem;
+    }
+}
+
+@keyframes grow-12 {
+    100% {
+        max-height: 14rem;
+    }
+}
+
+@-webkit-keyframes grow-15 {
+    100% {
+        max-height: 17rem;
+    }
+}
+
+@keyframes grow-15 {
+    100% {
+        max-height: 17rem;
+    }
+}
+
+@-webkit-keyframes grow-9 {
+    100% {
+        max-height: 11rem;
+    }
+}
+
+@keyframes grow-9 {
+    100% {
+        max-height: 11rem;
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.1);
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 2.777rem;
+    }
+    h2 {
+        font-size: 1.777rem;
+    }
+}
