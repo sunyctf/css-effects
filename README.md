@@ -56,6 +56,7 @@
 37. [HTML5模拟手电筒照明效果](https://sunyctf.github.io/css-effects/other/HTML5模拟手电筒照明效果/index.html)
 38. [css3炫酷文字字体动画](https://sunyctf.github.io/css-effects/other/css3炫酷文字字体动画/index.html)
 39. [css3母亲节背景动画](https://sunyctf.github.io/css-effects/other/css3母亲节背景动画/index.html)
+39. [css3弹性卡通怪物上下跳动](https://sunyctf.github.io/css-effects/other/css3弹性卡通怪物上下跳动/index.html)
 
 ### border
 
