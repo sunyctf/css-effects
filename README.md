@@ -58,6 +58,7 @@
 39. [css3母亲节背景动画](https://sunyctf.github.io/css-effects/other/css3母亲节背景动画/index.html)
 40. [css3弹性卡通怪物上下跳动](https://sunyctf.github.io/css-effects/other/css3弹性卡通怪物上下跳动/index.html)
 41. [css3流星雨划过动画](https://sunyctf.github.io/css-effects/other/css3流星雨划过动画/index.html)
+41. [css3实现星空动画](https://sunyctf.github.io/css-effects/other/css3实现星空动画/index.html)
 
 ### border
 
