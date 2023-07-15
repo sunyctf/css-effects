@@ -1,0 +1,133 @@
+html {
+    background-color: #07031d;
+    background-image: linear-gradient(43deg, #07031d 0%, #120a31 22%, #110840 49%, #0c0448 75%, #0c0342 100%);
+}
+
+.sky {
+    postition: relative;
+}
+
+.star {
+    background: #919191;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    position: absolute;
+}
+
+.glow {
+    background: white;
+    animation: glitter 10s linear 0s infinite normal;
+    -webkit-animation: glitter 10s linear 0s infinite normal;
+    -moz-animation: glitter 10s linear 0s infinite normal;
+    -ms-animation: glitter 10s linear 0s infinite normal;
+    -o-animation: glitter 10s linear 0s infinite normal;
+}
+
+.one {
+    top: 20%;
+    left: 30%;
+    animation-delay: -2s;
+}
+
+.two {
+    top: 19%;
+    left: 38%;
+    animation-delay: -1.7142857143s;
+}
+
+.three {
+    top: 30%;
+    left: 46%;
+    animation-delay: -1.4285714286s;
+}
+
+.four {
+    top: 40%;
+    left: 54%;
+    animation-delay: -1.4285714286s;
+}
+
+.five {
+    top: 42%;
+    left: 66%;
+    animation-delay: -0.8571428571s;
+}
+
+.six {
+    top: 70%;
+    left: 64%;
+    animation-delay: -0.5714285714s;
+}
+
+.seven {
+    top: 66%;
+    left: 56%;
+    animation-delay: -0.2857142857s;
+}
+
+.moon {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ddd;
+    box-shadow: inset 10px -10px 0 0 #b9b9b9, 0px 0px 40px 20px #203A87;
+}
+
+.crater {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #bbb;
+}
+
+.crater1 {
+    top: 30px;
+    right: 30px;
+    box-shadow: inset -1px 2px 0 0 #969696;
+}
+
+.crater2 {
+    width: 20px;
+    height: 20px;
+    top: 15px;
+    right: 10px;
+    box-shadow: inset -2px 4px 0 0 #aaa;
+}
+
+.crater3 {
+    width: 5px;
+    height: 5px;
+    top: 10px;
+    right: 30px;
+}
+
+@keyframes glitter {
+    0% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #535FED;
+    }
+    25% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #535FED;
+    }
+    75% {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1.0);
+        opacity: 1;
+        box-shadow: 0px 0px 10px 5px #535FED;
+    }
+}
