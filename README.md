@@ -60,6 +60,7 @@
 41. [css3流星雨划过动画](https://sunyctf.github.io/css-effects/other/css3流星雨划过动画/index.html)
 41. [css3实现星空动画](https://sunyctf.github.io/css-effects/other/css3实现星空动画/index.html)
 41. [css3夜空北斗七星闪烁动画](https://sunyctf.github.io/css-effects/other/css3夜空北斗七星闪烁动画/index.html)
+41. [css3节日折叠卡片](https://sunyctf.github.io/css-effects/other/css3节日折叠卡片/index.html)
 
 ### border
 
