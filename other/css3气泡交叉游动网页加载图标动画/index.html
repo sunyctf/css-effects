@@ -1,0 +1,179 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <title>CSS3气泡交叉游动网页加载图标动画特效</title>
+
+  <style>
+    .wrapper {
+      -webkit-animation: x 1s ease-in-out alternate infinite 0s both;
+      animation: x 1s ease-in-out alternate infinite 0s both;
+    }
+
+    .wrapper>div {
+      -webkit-animation: y 1s linear infinite 0s both;
+      animation: y 1s linear infinite 0s both;
+    }
+
+    .wrapper:nth-of-type(2),
+    .wrapper:nth-of-type(2)>div {
+      -webkit-animation-delay: 0.1s;
+      animation-delay: 0.1s;
+    }
+
+    .wrapper:nth-of-type(3),
+    .wrapper:nth-of-type(3)>div {
+      -webkit-animation-delay: 0.2s;
+      animation-delay: 0.2s;
+    }
+
+    .wrapper:nth-of-type(4),
+    .wrapper:nth-of-type(4)>div {
+      -webkit-animation-delay: 0.3s;
+      animation-delay: 0.3s;
+    }
+
+    .wrapper:nth-of-type(5),
+    .wrapper:nth-of-type(5)>div {
+      -webkit-animation-delay: 0.4s;
+      animation-delay: 0.4s;
+    }
+
+    @-webkit-keyframes x {
+      0% {
+        -webkit-transform: translate(-100px, 0);
+        transform: translate(-100px, 0);
+      }
+
+      100% {
+        -webkit-transform: translate(100px, 0);
+        transform: translate(100px, 0);
+      }
+    }
+
+    @keyframes x {
+      0% {
+        -webkit-transform: translate(-100px, 0);
+        transform: translate(-100px, 0);
+      }
+
+      100% {
+        -webkit-transform: translate(100px, 0);
+        transform: translate(100px, 0);
+      }
+    }
+
+    @-webkit-keyframes y {
+      25% {
+        -webkit-transform: translate(0, -50px);
+        transform: translate(0, -50px);
+      }
+
+      0%,
+      50%,
+      100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+
+      75% {
+        -webkit-transform: translate(0, 50px);
+        transform: translate(0, 50px);
+      }
+    }
+
+    @keyframes y {
+      25% {
+        -webkit-transform: translate(0, -50px);
+        transform: translate(0, -50px);
+      }
+
+      0%,
+      50%,
+      100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+      }
+
+      75% {
+        -webkit-transform: translate(0, 50px);
+        transform: translate(0, 50px);
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      align-items: center;
+      background: linear-gradient(45deg, #d91e18, #9a12b3);
+      display: flex;
+      justify-content: center;
+      margin: 0;
+      min-height: 100vh;
+      padding: 0;
+      width: 100vw;
+    }
+
+    .wrapper {
+      position: absolute;
+    }
+
+    .wrapper:nth-of-type(2)>div {
+      height: 40px;
+      width: 40px;
+      opacity: 0.8;
+    }
+
+    .wrapper:nth-of-type(3)>div {
+      height: 30px;
+      width: 30px;
+      opacity: 0.6;
+    }
+
+    .wrapper:nth-of-type(4)>div {
+      height: 20px;
+      width: 20px;
+      opacity: 0.4;
+    }
+
+    .wrapper:nth-of-type(5)>div {
+      height: 10px;
+      width: 10px;
+      opacity: 0.2;
+    }
+
+    .wrapper>div {
+      background: #fff;
+      border-radius: 100%;
+      height: 50px;
+      margin: 40px;
+      width: 50px;
+    }
+  </style>
+
+  <div class="wrapper">
+    <div></div>
+  </div>
+  <div class="wrapper">
+    <div></div>
+  </div>
+  <div class="wrapper">
+    <div></div>
+  </div>
+  <div class="wrapper">
+    <div></div>
+  </div>
+  <div class="wrapper">
+    <div></div>
+  </div>
+</body>
+
+</html>
