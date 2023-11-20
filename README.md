@@ -63,6 +63,7 @@
 41. [css3节日折叠卡片](https://sunyctf.github.io/css-effects/other/css3节日折叠卡片/index.html)
 41. [css3气泡交叉游动网页加载图标](https://sunyctf.github.io/css-effects/other/css3气泡交叉游动网页加载图标动画/index.html)
 41. [3D镂空简约卡片悬停效果](https://sunyctf.github.io/css-effects/other/3d-cutout-card/index.html)
+41. [css3社交媒体图标按钮悬停动画](https://sunyctf.github.io/css-effects/other/css3社交媒体图标按钮悬停动画/index.html)
 
 ### border
 
