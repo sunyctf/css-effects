@@ -66,6 +66,7 @@
 41. [3D镂空简约卡片悬停效果](https://sunyctf.github.io/css-effects/other/3d-cutout-card/index.html)
 41. [css3社交媒体图标按钮悬停动画](https://sunyctf.github.io/css-effects/other/css3社交媒体图标按钮悬停动画/index.html)
 41. [css3火焰文字特效](https://sunyctf.github.io/css-effects/other/css3火焰文字特效/index.html)
+41. [旋转立方体特效](https://sunyctf.github.io/css-effects/other/旋转立方体特效.html)
 
 ### border
 
