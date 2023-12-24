@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*最外层容器样式*/
+      .wrap {
+           width:100px;
+          height: 100px;
+          margin: 150px;
+          position: relative;
+      }
+
+      /*包裹所有容器样式*/
+      .cube {
+        width: 50px;
+          height: 50px;
+          margin: 0 auto;
+          transform-style: preserve-3d;
+          transform: rotateX(-30deg) rotateY(-80deg);
+          animation: rotate linear 20s infinite;
+      }
+
+      @-webkit-keyframes rotate {
+          from {
+              transform: rotateX(0deg) rotateY(0deg);
+          }
+          to {
+              transform: rotateX(360deg) rotateY(360deg);
+          }
+      }
+
+      .cube div {
+          position: absolute;
+          width:200px;
+          height: 200px;
+          opacity: 0.8;
+          transition: all .4s;
+      }
+
+      /*定义所有图片样式*/
+      .pic {
+        width:200px;
+          height: 200px;
+      }
+
+      .cube .out_front {
+          transform: rotateY(0deg) translateZ(100px);
+      }
+
+      .cube .out_back {
+          transform: translateZ(-100px) rotateY(180deg);
+      }
+
+      .cube .out_left {
+          transform: rotateY(-90deg) translateZ(100px);
+      }
+
+      .cube .out_right {
+          transform: rotateY(90deg) translateZ(100px);
+      }
+
+      .cube .out_top {
+          transform: rotateX(90deg) translateZ(100px);
+      }
+
+      .cube .out_bottom {
+          transform: rotateX(-90deg) translateZ(100px);
+      }
+
+      /*定义小正方体样式*/
+      .cube span {
+          display: block;
+          width: 100px;
+          height: 100px;
+          position: absolute;
+          top: 50px;
+          left: 50px;
+      }
+
+      .cube .in_pic {
+        width:  100px;
+          height: 100px;
+      }
+
+      .cube .in_front {
+          transform: rotateY(0deg) translateZ(50px);
+      }
+
+      .cube .in_back {
+          transform: translateZ(-50px) rotateY(180deg);
+      }
+
+      .cube .in_left {
+          transform: rotateY(-90deg) translateZ(50px);
+      }
+
+      .cube .in_right {
+          transform: rotateY(90deg) translateZ(50px);
+      }
+
+      .cube .in_top {
+          transform: rotateX(90deg) translateZ(50px);
+      }
+
+      .cube .in_bottom {
+          transform: rotateX(-90deg) translateZ(50px);
+      }
+
+      /*鼠标移入后样式*/
+      .cube:hover .out_front {
+          transform: rotateY(0deg) translateZ(200px);
+      }
+
+      .cube:hover .out_back {
+          transform: translateZ(-200px) rotateY(180deg);
+      }
+
+      .cube:hover .out_left {
+          transform: rotateY(-90deg) translateZ(200px);
+      }
+
+      .cube:hover .out_right {
+          transform: rotateY(90deg) translateZ(200px);
+      }
+
+      .cube:hover .out_top {
+          transform: rotateX(90deg) translateZ(200px);
+      }
+
+      .cube:hover .out_bottom {
+          transform: rotateX(-90deg) translateZ(200px);
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- 外层最大容器 -->
+    <div class="wrap">
+      <!--包裹所有元素的容器-->
+      <div class="cube">
+        <!--前面图片 -->
+        <div class="out_front">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0eef73838.jpg"
+            class="pic"
+          />
+        </div>
+        <!--后面图片 -->
+        <div class="out_back">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0f2fb9a83.jpg"
+            class="pic"
+          />
+        </div>
+        <!--左面图片 -->
+        <div class="out_left">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0f55411f0.jpg"
+            class="pic"
+          />
+        </div>
+        <!--右面图片 -->
+        <div class="out_right">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0f79a1124.jpg"
+            class="pic"
+          />
+        </div>
+        <!--上面图片 -->
+        <div class="out_top">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0f98a8b66.jpg"
+            class="pic"
+          />
+        </div>
+        <!--下面图片 -->
+        <div class="out_bottom">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0fdd51b7e.jpg"
+            class="pic"
+          />
+        </div>
+
+        <!--小正方体 -->
+        <span class="in_front">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb100223dd0.jpg"
+            class="in_pic"
+          />
+        </span>
+        <span class="in_back">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb101c2c24b.jpg"
+            class="in_pic"
+          />
+        </span>
+        <span class="in_left">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb1038127b5.jpg"
+            class="in_pic"
+          />
+        </span>
+        <span class="in_right">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb0dce1ca55.jpg"
+            class="in_pic"
+          />
+        </span>
+        <span class="in_top">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb1057bb167.jpg"
+            class="in_pic"
+          />
+        </span>
+        <span class="in_bottom">
+          <img
+            src="https://i.loli.net/2018/05/03/5aeb107514579.jpg"
+            class="in_pic"
+          />
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
