@@ -59,14 +59,15 @@
 39. [css3母亲节背景动画](https://sunyctf.github.io/css-effects/other/css3母亲节背景动画/index.html)
 40. [css3弹性卡通怪物上下跳动](https://sunyctf.github.io/css-effects/other/css3弹性卡通怪物上下跳动/index.html)
 41. [css3流星雨划过动画](https://sunyctf.github.io/css-effects/other/css3流星雨划过动画/index.html)
-41. [css3实现星空动画](https://sunyctf.github.io/css-effects/other/css3实现星空动画/index.html)
-41. [css3夜空北斗七星闪烁动画](https://sunyctf.github.io/css-effects/other/css3夜空北斗七星闪烁动画/index.html)
-41. [css3节日折叠卡片](https://sunyctf.github.io/css-effects/other/css3节日折叠卡片/index.html)
-41. [css3气泡交叉游动网页加载图标](https://sunyctf.github.io/css-effects/other/css3气泡交叉游动网页加载图标动画/index.html)
-41. [3D镂空简约卡片悬停效果](https://sunyctf.github.io/css-effects/other/3d-cutout-card/index.html)
-41. [css3社交媒体图标按钮悬停动画](https://sunyctf.github.io/css-effects/other/css3社交媒体图标按钮悬停动画/index.html)
-41. [css3火焰文字特效](https://sunyctf.github.io/css-effects/other/css3火焰文字特效/index.html)
-41. [旋转立方体特效](https://sunyctf.github.io/css-effects/other/旋转立方体特效.html)
+42. [css3实现星空动画](https://sunyctf.github.io/css-effects/other/css3实现星空动画/index.html)
+43. [css3夜空北斗七星闪烁动画](https://sunyctf.github.io/css-effects/other/css3夜空北斗七星闪烁动画/index.html)
+44. [css3节日折叠卡片](https://sunyctf.github.io/css-effects/other/css3节日折叠卡片/index.html)
+45. [css3气泡交叉游动网页加载图标](https://sunyctf.github.io/css-effects/other/css3气泡交叉游动网页加载图标动画/index.html)
+46. [3D镂空简约卡片悬停效果](https://sunyctf.github.io/css-effects/other/3d-cutout-card/index.html)
+47. [css3社交媒体图标按钮悬停动画](https://sunyctf.github.io/css-effects/other/css3社交媒体图标按钮悬停动画/index.html)
+48. [css3火焰文字特效](https://sunyctf.github.io/css-effects/other/css3火焰文字特效/index.html)
+49. [旋转立方体特效](https://sunyctf.github.io/css-effects/other/旋转立方体特效.html)
+50. [css3悬停百叶窗广告牌轮播特效](https://sunyctf.github.io/css-effects/other/css3悬停百叶窗广告牌轮播特效/index.html)
 
 ### border
 
