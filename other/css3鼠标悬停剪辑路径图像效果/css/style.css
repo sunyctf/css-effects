@@ -1,0 +1,101 @@
+:root {
+  --chardonnay: #FED088;
+  --cod-gray: #111;
+  --transform-function: cubic-bezier(0.05, 0.61, 0.41, 0.95);
+  --white: #FFF;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: 'Noto Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  align-items: center;
+  background-color: var(--chardonnay);
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.container {
+  background-color: var(--chardonnay);
+  height: 31.25rem;
+  max-width: 100%;
+  position: relative;
+  width: 50rem;
+}
+
+.clip {
+  background: var(--white)
+  url('https://images.unsplash.com/photo-1599694927440-e321028bc146?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=3300&q=80')
+  100% / cover no-repeat;
+  border: 0.1rem solid var(--cod-gray);
+  bottom: 0rem;
+  left: -0.2rem;
+  position: absolute;
+  right: 0rem;
+  top: 0rem;
+  transition: clip-path 330ms var(--transform-function);
+}
+
+.clip-1 {
+  clip-path: polygon(0 0, 47% 0, 21% 100%, 0% 100%);
+}
+
+.clip-2 {
+  background-image: url('https://images.unsplash.com/photo-1599696586779-c91cb65e1c3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  clip-path: polygon(43% 0, 100% 0, 38% 100%, 13% 100%);
+}
+
+.clip-3 {
+  background-image: url('https://images.unsplash.com/photo-1489460637401-e9e4a598abca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 38% 100%);
+}
+
+.content {
+  background-color: var(--white);
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  opacity: 0;
+  padding: 1rem;
+  pointer-events: none;
+  position: absolute;
+  transform: translateY(100%);
+  transition: transform 330ms var(--transform-function) 100ms,
+  opacity 330ms var(--transform-function) 150ms;
+  width: 75%;
+}
+
+.title {
+  color: var(--cod-gray);
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  margin-bottom: 0.7rem;
+}
+
+.paragraph {
+  color: var(--cod-gray);
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+/* Effect */
+.container:hover .clip {
+  clip-path: polygon(100% 0, 100% 0, 100% 100%, 100% 100%);
+}
+
+.container .clip:hover {
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
+.clip:hover .content {
+  opacity: 1;
+  transform: translateY(0);
+}
