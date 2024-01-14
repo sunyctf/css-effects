@@ -68,6 +68,7 @@
 48. [css3火焰文字特效](https://sunyctf.github.io/css-effects/other/css3火焰文字特效/index.html)
 49. [旋转立方体特效](https://sunyctf.github.io/css-effects/other/旋转立方体特效.html)
 50. [css3悬停百叶窗广告牌轮播特效](https://sunyctf.github.io/css-effects/other/css3悬停百叶窗广告牌轮播特效/index.html)
+50. [css3鼠标悬停剪辑路径图像效果](https://sunyctf.github.io/css-effects/other/css3鼠标悬停剪辑路径图像效果/index.html)
 
 ### border
 
