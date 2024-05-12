@@ -1,0 +1,171 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    /* background-color: #f4f2fd; */
+    zoom: 125%;
+    background: radial-gradient( circle at 10% 20%, rgba(216, 241, 230, 0.46) 0.1%, rgba(233, 226, 226, 0.28) 90.1%);
+}
+
+::selection {
+    background-color: black;
+    color: white;
+}
+
+#pricing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0px 50px;
+    margin-top: 70px;
+}
+
+.single-card {
+    flex-basis: calc(100% / 3);
+    padding: 20px;
+    /* border: 2px solid red; */
+}
+
+.single-card .wrapper {
+    background-color: white;
+    height: 100%;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 15px;
+    transition: 0.4s;
+}
+
+.single-card .wrapper:hover {
+    transform: translateY(-13px);
+    /* box-shadow: 0px 5px 8px 1px rgba(23, 23, 23, 0.6); */
+}
+
+.single-card h3 {
+    text-align: center;
+    font-weight: 500;
+}
+
+.single-card h1 {
+    margin: 15px 0px;
+    margin-bottom: 18px;
+    font-size: 32px;
+}
+
+.single-card li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    letter-spacing: 0.4px;
+}
+
+.single-card i.fas {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    font-size: 10px;
+    margin-right: 10px;
+}
+
+.single-card span {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.single-card button {
+    height: 40px;
+    width: 100%;
+    background-color: #202842;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 20px;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    margin-top: 30px;
+    transition: 0.3s;
+}
+
+.single-card button:hover {
+    background: #395dd4;
+    font-weight: 500;
+    box-shadow: #395dd46a 0px 0px 16px;
+}
+
+.single-card .popular {
+    position: relative;
+}
+
+.single-card .popular::before {
+    content: "Featured";
+    position: absolute;
+    top: 18px;
+    color: #111;
+    font-weight: 500;
+    right: -45px;
+    background: rgb(232, 228, 0);
+    transform: rotate(45deg);
+    font-size: 10px;
+    padding: 0px 50px;
+    box-shadow: 9px 9px 10px rgba(0, 0, 0, 0.3);
+}
+
+.popular.wrapper {
+    color: white;
+    background: #192038;
+    /* background: #002a20; */
+    overflow: hidden;
+}
+
+.popular.wrapper button,
+.popular.wrapper i {
+    color: #202842;
+    background: white;
+}
+
+.popular.wrapper button:hover {
+    color: #000;
+    /* font-weight: 700; */
+    background: rgb(255, 255, 0);
+    box-shadow: rgba(229, 255, 0, 0.1) 0px 0px 16px;
+}
+
+.disable span {
+    color: #afafaf;
+}
+
+.disable i.fas {
+    background: #c4c4c4;
+}
+
+@media screen and (max-width: 992px) {
+    #pricing {
+        padding: 0px 40px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .single-card {
+        flex-basis: calc(100% / 2);
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .single-card {
+        flex-basis: calc(100%);
+    }
+}
