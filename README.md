@@ -69,6 +69,7 @@
 49. [旋转立方体特效](https://sunyctf.github.io/css-effects/other/旋转立方体特效.html)
 50. [css3悬停百叶窗广告牌轮播特效](https://sunyctf.github.io/css-effects/other/css3悬停百叶窗广告牌轮播特效/index.html)
 50. [css3鼠标悬停剪辑路径图像效果](https://sunyctf.github.io/css-effects/other/css3鼠标悬停剪辑路径图像效果/index.html)
+50. [css3定价表单悬停动画](https://sunyctf.github.io/css-effects/other/css3定价表单悬停动画/index.html)
 
 ### border
 
